@@ -29,172 +29,76 @@ QtObject{
             "image": "qrc:/gcompris/data/words/fruits/fruitsalad.jpg",
             "content": [
                 {
-                    "tags": ["fruits"],
                     "instructions": qsTr("Place the FRUITS to the right and other objects to the left"),
                     "image": imagesPrefix + "fruit.png",
                     "maxNumberOfGood": 6,
                     "maxNumberOfBad": 6,
                     "prefix": "qrc:/gcompris/data/words/",
-                    "levelImages": [
-                        {
-                            "fruits/apple.jpg":["fruits"],
-                            "fruits/apricot.jpg":["fruits"],
-                            "fruits/banana.jpg":["fruits"],
-                            "fruits/berries.jpg":["fruits"],
-                            "fruits/billberries.jpg":["fruits"],
-                            "fruits/cherries.jpg":["fruits"],
-                            "vegetables/batatadoce.jpg":["vegetables"],
-                            "vegetables/bittergourd.jpg":["vegetables"],
-                            "vegetables/blackchillies.jpg":["vegetables"],
-                            "vegetables/aubergine.jpg":["vegetables"],
-                            "others/house.jpg":["others"],
-                            "others/street.jpg":["others"]
-                        }
-                    ]
+                    "good": ["fruits/apple.jpg","fruits/apricot.jpg","fruits/banana.jpg","fruits/berries.jpg","fruits/billberries.jpg","fruits/cherries.jpg"],
+                    "bad": ["vegetables/batatadoce.jpg","vegetables/bittergourd.jpg","vegetables/blackchillies.jpg","vegetables/aubergine.jpg","others/house.jpg","others/street.jpg"],
                 },
                 {
-                    "tags": ["fruits"],
                     "instructions": qsTr("Place the FRUITS to the right and other objects to the left"),
                     "image": imagesPrefix + "fruit.png",
                     "maxNumberOfGood": 6,
                     "maxNumberOfBad": 6,
                     "prefix": "qrc:/gcompris/data/words/",
-                    "levelImages": [
-                        {
-                            "fruits/cranberries.jpg":["fruits"],
-                            "fruits/feiji.jpg":["fruits"],
-                            "fruits/kiwi.jpg":["fruits"],
-                            "fruits/lemon.jpg":["fruits"],
-                            "fruits/litchi.jpg":["fruits"],
-                            "fruits/mango.jpg":["fruits"],
-                            "vegetables/garlic.jpg":["vegetables"],
-                            "vegetables/carrots.jpg":["vegetables"],
-                            "vegetables/cauliflower.jpg":["vegetables"],
-                            "vegetables/chillies.jpg":["vegetables"],
-                            "others/spoon.jpg":["others"],
-                            "others/fork.jpg":["others"]
-                        }
-                    ]
+                    "good": ["fruits/cranberries.jpg","fruits/feiji.jpg","fruits/kiwi.jpg","fruits/lemon.jpg","fruits/litchi.jpg","fruits/mango.jpg"],
+                    "bad": ["vegetables/garlic.jpg","vegetables/carrots.jpg","vegetables/cauliflower.jpg","vegetables/chillies.jpg","others/spoon.jpg","others/fork.jpg"]
                 },
                 {
-                    "tags": ["fruits"],
                     "instructions": qsTr("Place the FRUITS to the right and other objects to the left"),
                     "image": imagesPrefix + "fruit.png",
                     "maxNumberOfGood": 5,
                     "maxNumberOfBad": 7,
                     "prefix": "qrc:/gcompris/data/words/",
-                    "levelImages": [
-                        {
-                            "fruits/mirabellen.jpg":["fruits"],
-                            "fruits/nectarine.jpg":["fruits"],
-                            "fruits/papaya.jpg":["fruits"],
-                            "fruits/peach.jpg":["fruits"],
-                            "fruits/pineapple.jpg":["fruits"],
-                            "vegetables/chineseradish.jpg":["vegetables"],
-                            "vegetables/cucumber.jpg":["vegetables"],
-                            "food/cereal.jpg":["food"],
-                            "food/macroni.jpg":["food"],
-                            "food/hamburger.jpg":["food"],
-                            "transport/cycle.jpg":["transport"],
-                            "transport/car1.jpg":["transport"]
-                        }
-                    ]
+                    "good": ["fruits/mirabellen.jpg","fruits/nectarine.jpg","fruits/papaya.jpg","fruits/peach.jpg","fruits/pineapple.jpg"],
+                    "bad": ["vegetables/chineseradish.jpg","vegetables/cucumber.jpg","food/cereal.jpg","food/macroni.jpg","food/hamburger.jpg","transport/cycle.jpg","transport/car1.jpg"]
                 },
                 {
-                    "tags": ["fruits"],
                     "instructions": qsTr("Place the FRUITS to the right and other objects to the left"),
                     "image": imagesPrefix + "fruit.png",
                     "maxNumberOfGood": 4,
                     "maxNumberOfBad": 5,
                     "prefix": "qrc:/gcompris/data/words/",
-                    "levelImages" : [
-                        {
-                            "fruits/plum.jpg":["fruits"],
-                            "fruits/stackelberry.jpg":["fruits"],
-                            "fruits/tyttberries.jpg":["fruits"],
-                            "fruits/strwaberry.jpg":["fruits"],
-                            "vegetables/dahuisi.jpg":["vegetables"],
-                            "others/mobile.jpg":["others"],
-                            "vegetables/fid.jpg":["vegetables"],
-                            "food/eggs.jpg":["food"],
-                            "food/icecream.jpg":["food"],
-                        }
-                    ]
+                    "good": ["fruits/plum.jpg","fruits/stackelberry.jpg","fruits/tyttberries.jpg","fruits/strwaberry.jpg"],
+                    "bad": ["vegetables/dahuisi.jpg","others/mobile.jpg","vegetables/fid.jpg","food/eggs.jpg","food/icecream.jpg"]
                 },
                 {
-                    "tags": ["fruits"],
                     "instructions": qsTr("Place the FRUITS to the right and other objects to the left"),
                     "image": imagesPrefix + "fruit.png",
                     "maxNumberOfGood": 4,
                     "maxNumberOfBad": 5,
                     "prefix": "qrc:/gcompris/data/words/",
-                    "levelImages" : [
-                        {
-                            "fruits/fruitsalad.jpg":["fruits"],
-                            "fruits/guava.jpg":["fruits"],
-                            "fruits/grapes.jpg":["fruits"],
-                            "fruits/litchi.jpg":["fruits"],
-                            "vegetables/pumpkin.jpg":["vegetables"],
-                            "transport/bus.jpg":["transport"],
-                            "food/milk.jpg":["food"],
-                            "food/cheese.jpg":["food"],
-                            "food/butter.jpg":["food"],
-                        }
-                    ]
+                    "good": ["fruits/fruitsalad.jpg","fruits/guava.jpg","fruits/grapes.jpg","fruits/litchi.jpg"],
+                    "bad": ["vegetables/pumpkin.jpg","transport/bus.jpg","food/milk.jpg","food/cheese.jpg","food/butter.jpg"]
                 },
                 {
-                    "tags": ["fruits"],
                     "instructions": qsTr("Place the FRUITS to the right and other objects to the left"),
                     "image": imagesPrefix + "fruit.png",
                     "maxNumberOfGood": 3,
                     "maxNumberOfBad": 3,
                     "prefix": "qrc:/gcompris/data/words/",
-                    "levelImages": [
-                        {
-                            "fruits/pear.jpg":["fruits"],
-                            "fruits/pyrusmalus.jpg":["fruits"],
-                            "fruits/pineapple.jpg":["fruits"],
-                            "vegetables/radish.jpg":["vegetables"],
-                            "food/popcorn.jpg":["food"],
-                            "others/street.jpg":["others"]
-                        }
-                    ]
+                    "good": ["fruits/pear.jpg","fruits/pyrusmalus.jpg","fruits/pineapple.jpg"],
+                    "bad": ["vegetables/radish.jpg","food/popcorn.jpg","others/street.jpg"]
                 },
                 {
-                    "tags": ["fruits"],
                     "instructions": qsTr("Place the FRUITS to the right and other objects to the left"),
                     "image": imagesPrefix + "fruit.png",
                     "maxNumberOfGood": 3 ,
                     "maxNumberOfBad": 3,
                     "prefix": "qrc:/gcompris/data/words/",
-                    "levelImages": [
-                        {
-                            "fruits/peach.jpg":["fruits"],
-                            "fruits/tyttberries.jpg":["fruits"],
-                            "fruits/papaya.jpg":["fruits"],
-                            "vegetables/spinach.jpg":["vegetables"],
-                            "food/hotdog.jpg":["food"],
-                            "food/milk.jpg":["food"]
-                        }
-                    ]
+                    "good": ["fruits/peach.jpg","fruits/tyttberries.jpg","fruits/papaya.jpg"],
+                    "bad": ["vegetables/spinach.jpg","food/hotdog.jpg", "food/milk.jpg"]
                 },
                 {
-                    "tags": ["fruits"],
                     "instructions": qsTr("Place the FRUITS to the right and other objects to the left"),
                     "image": imagesPrefix + "fruit.png",
                     "maxNumberOfGood": 2,
                     "maxNumberOfBad": 4,
                     "prefix": "qrc:/gcompris/data/words/",
-                    "levelImages": [
-                        {
-                            "fruits/mango.jpg":["fruits"],
-                            "fruits/strwaberry.jpg":["fruits"],
-                            "others/pencil.jpg":["others"],
-                            "vegetables/onion.jpg":["vegetables"],
-                            "food/cheese.jpg":["food"],
-                            "food/water.jpg":["food"]
-                        }
-                    ]
+                    "good": ["fruits/mango.jpg","fruits/strwaberry.jpg"],
+                    "bad": ["others/pencil.jpg","vegetables/onion.jpg","food/cheese.jpg","food/water.jpg"]
                 }
             ]
         }

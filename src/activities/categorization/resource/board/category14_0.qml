@@ -29,193 +29,85 @@ QtObject{
             "image": imagesPrefix + "bird.jpg",
             "content": [
                 {
-                    "tags": ["birds"],
                     "instructions": qsTr("Place the BIRDS to the right and other objects to the left"),
                     "image": imagesPrefix + "bird.png",
                     "maxNumberOfGood": 6,
                     "maxNumberOfBad": 6,
                     "prefix": "qrc:/gcompris/data/words/",
-                    "levelImages": [
-                        {
-                            "birds/parrot.jpg":["birds"],
-                            "birds/bird34.jpg":["birds"],
-                            "birds/bird23.jpg":["birds"],
-                            "birds/peacock.jpg":["birds"],
-                            "birds/rooster.jpg":["birds"],
-                            "birds/bird1.jpg":["birds"],
-                            "animals/baboon.jpg":["animals"],
-                            "animals/bosmutus.jpg":["animals"],
-                            "animals/camel.jpg":["animals"],
-                            "animals/cow.jpg":["animals"],
-                            "others/sharpnerandpencil.jpg":["others"],
-                            "transport/cycle.jpg":["transport"]
-                        }
-                    ]
+                    "good": ["birds/parrot.jpg","birds/bird34.jpg","birds/bird23.jpg","birds/peacock.jpg","birds/rooster.jpg","birds/bird1.jpg"],
+                    "bad": ["animals/baboon.jpg","animals/bosmutus.jpg","animals/camel.jpg","animals/cow.jpg","others/sharpnerandpencil.jpg","transport/cycle.jpg"]
                 },
                 {
-                    "tags": ["birds"],
                     "instructions": qsTr("Place the BIRDS to the right and other objects to the left"),
                     "image": imagesPrefix + "bird.png",
                     "maxNumberOfGood": 6,
                     "maxNumberOfBad": 6,
                     "prefix": "qrc:/gcompris/data/words/",
-                    "levelImages": [
-                        {
-                            "birds/bird2.jpg":["birds"],
-                            "birds/bird3.jpg":["birds"],
-                            "birds/bird4.jpg":["birds"],
-                            "birds/bird5.jpg":["birds"],
-                            "birds/bird6.jpg":["birds"],
-                            "birds/bird7.jpg":["birds"],
-                            "animals/dog.jpg":["animals"],
-                            "animals/dolphin.jpg":["animals"],
-                            "animals/donkey.jpg":["animals"],
-                            "animals/elephant.jpg":["animals"],
-                            "others/mobile.jpg":["others"],
-                            "transport/helicopter1.jpg":["transport"]
-                        }
-                    ]
+                    "good": ["birds/bird2.jpg","birds/bird3.jpg","birds/bird4.jpg","birds/bird5.jpg","birds/bird6.jpg","birds/bird7.jpg"],
+                    "bad": ["animals/dog.jpg","animals/dolphin.jpg","animals/donkey.jpg","animals/elephant.jpg","others/mobile.jpg","transport/helicopter1.jpg"]
                 },
                 {
-                    "tags": ["birds"],
                     "instructions": qsTr("Place the BIRDS to the right and other objects to the left"),
                     "image": imagesPrefix + "bird.png",
                     "maxNumberOfGood": 5,
                     "maxNumberOfBad": 7,
                     "prefix": "qrc:/gcompris/data/words/",
-                    "levelImages": [
-                        {
-                            "birds/bird8.jpg":["birds"],
-                            "birds/bird9.jpg":["birds"],
-                            "birds/bird10.jpg":["birds"],
-                            "birds/bird11.jpg":["birds"],
-                            "birds/bird12.jpg":["birds"],
-                            "plants/tree1.jpg":["plants"],
-                            "transport/train2.jpg":["transport"],
-                            "animals/giraffe.jpg":["animals"],
-                            "vegetables/spinaches.jpg":["vegetables"],
-                            "fruits/kiwi.jpg":["fruits"],
-                            "insects/insect12.jpg":["insects"],
-                            "food/cereal.jpg":["food"]
-                        }
-                    ]
+                    "good": ["birds/bird8.jpg","birds/bird9.jpg","birds/bird10.jpg","birds/bird11.jpg","birds/bird12.jpg"],
+                    "bad": ["plants/tree1.jpg","transport/train2.jpg","animals/giraffe.jpg","vegetables/spinaches.jpg","fruits/kiwi.jpg","insects/insect12.jpg","food/cereal.jpg"]
                 },
                 {
-                    "tags": ["birds"],
                     "instructions": qsTr("Place the BIRDS to the right and other objects to the left"),
                     "image": imagesPrefix + "bird.png",
                     "maxNumberOfGood": 5,
                     "maxNumberOfBad": 4,
                     "prefix": "qrc:/gcompris/data/words/",
-                    "levelImages": [
-                        {
-                            "birds/bird13.jpg":["birds"],
-                            "birds/bird14.jpg":["birds"],
-                            "birds/bird15.jpg":["birds"],
-                            "birds/bird16.jpg":["birds"],
-                            "birds/bird17.jpg":["birds"],
-                            "animals/hare.jpg":["animals"],
-                            "animals/hedgehog.jpg":["animals"],
-                            "food/cheese.jpg":["food"],
-                            "food/pizza.jpg":["food"]
-                        }
-                    ]
+                    "good": ["birds/bird13.jpg","birds/bird14.jpg","birds/bird15.jpg","birds/bird16.jpg","birds/bird17.jpg"],
+                    "bad": ["animals/hare.jpg","animals/hedgehog.jpg","food/cheese.jpg","food/pizza.jpg"]
                 },
                 {
-                    "tags": ["birds"],
                     "instructions": qsTr("Place the BIRDS to the right and other objects to the left"),
                     "image": imagesPrefix + "bird.png",
                     "maxNumberOfGood": 5,
                     "maxNumberOfBad": 4,
                     "prefix": "qrc:/gcompris/data/words/",
-                    "levelImages": [
-                        {
-                            "birds/bird18.jpg":["birds"],
-                            "birds/bird19.jpg":["birds"],
-                            "birds/bird20.jpg":["birds"],
-                            "birds/bird21.jpg":["birds"],
-                            "birds/bird22.jpg":["birds"],
-                            "animals/horse.jpg":["animals"],
-                            "animals/koala.jpg":["animals"],
-                            "food/milk.jpg":["food"],
-                            "insects/insect5.jpg":["insects"]
-                        }
-                    ]
+                    "good": ["birds/bird18.jpg","birds/bird19.jpg","birds/bird20.jpg","birds/bird21.jpg","birds/bird22.jpg"],
+                    "bad": ["animals/horse.jpg","animals/koala.jpg","food/milk.jpg","insects/insect5.jpg"]
                 },
                 {
-                    "tags": ["birds"],
                     "instructions": qsTr("Place the BIRDS to the right and other objects to the left"),
                     "image": imagesPrefix + "bird.png",
                     "maxNumberOfGood": 4,
                     "maxNumberOfBad": 5,
                     "prefix": "qrc:/gcompris/data/words/",
-                    "levelImages": [
-                        {
-                            "birds/bird23.jpg":["birds"],
-                            "birds/bird24.jpg":["birds"],
-                            "birds/bird25.jpg":["birds"],
-                            "birds/bird26.jpg":["birds"],
-                            "animals/marsupialis.jpg":["animals"],
-                            "animals/mouse.jpg":["animals"],
-                            "others/pepsi.jpg":["others"],
-                            "insects/insect16.jpg":["insects"],
-                            "food/milk.jpg":["food"],
-                        }
-                    ]
+                    "good": ["birds/bird23.jpg","birds/bird24.jpg","birds/bird25.jpg","birds/bird26.jpg"],
+                    "bad": ["animals/marsupialis.jpg","animals/mouse.jpg","others/pepsi.jpg","insects/insect16.jpg","food/milk.jpg"]
                 },
                 {
-                    "tags": ["birds"],
                     "instructions": qsTr("Place the BIRDS to the right and other objects to the left"),
                     "image": imagesPrefix + "bird.png",
                     "maxNumberOfGood": 3,
                     "maxNumberOfBad": 3,
                     "prefix": "qrc:/gcompris/data/words/",
-                    "levelImages": [
-                        {
-                            "birds/bird27.jpg":["birds"],
-                            "birds/bird28.jpg":["birds"],
-                            "birds/bird29.jpg":["birds"],
-                            "animals/kodiak-bear.jpg":["animals"],
-                            "animals/krotiki.jpg":["animals"],
-                            "others/clock.jpg":["others"],
-                        }
-                    ]
+                    "good": ["birds/bird27.jpg","birds/bird28.jpg","birds/bird29.jpg"],
+                    "bad": ["animals/kodiak-bear.jpg","animals/krotiki.jpg","others/clock.jpg"]
                 },
                 {
-                    "tags": ["birds"],
                     "instructions": qsTr("Place the BIRDS to the right and other objects to the left"),
                     "image": imagesPrefix + "bird.png",
                     "maxNumberOfGood": 3,
                     "maxNumberOfBad": 3,
                     "prefix": "qrc:/gcompris/data/words/",
-                    "levelImages": [
-                        {
-                            "birds/bird30.jpg":["birds"],
-                            "birds/bird31.jpg":["birds"],
-                            "birds/bird32.jpg":["birds"],
-                            "animals/mouse1.jpg":["animals"],
-                            "animals/pig.jpg":["animals"],
-                            "nature/nature5.jpg":["nature"],
-                        }
-                    ]
+                    "good": ["birds/bird30.jpg","birds/bird31.jpg","birds/bird32.jpg"],
+                    "bad": ["animals/mouse1.jpg","animals/pig.jpg","nature/nature5.jpg"]
                 },
                 {
-                    "tags": ["birds"],
                     "instructions": qsTr("Place the BIRDS to the right and other objects to the left"),
                     "image": imagesPrefix + "bird.png",
                     "maxNumberOfGood": 2,
                     "maxNumberOfBad": 4,
                     "prefix": "qrc:/gcompris/data/words/",
-                    "levelImages": [
-                        {
-                            "birds/bird33.jpg":["birds"],
-                            "birds/bird34.jpg":["birds"],
-                            "animals/lion.jpg":["animals"],
-                            "plants/tree3.jpg":["plants"],
-                            "transport/balloon.jpg":["transport"],
-                            "householdGoods/refrigerator.jpg":["householdGoods"]
-                        }
-                    ]
+                    "good": ["birds/bird33.jpg","birds/bird34.jpg"],
+                    "bad": ["animals/lion.jpg","plants/tree3.jpg","transport/balloon.jpg","householdGoods/refrigerator.jpg"]
                 }
             ]
         }

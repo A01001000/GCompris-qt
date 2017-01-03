@@ -1,3 +1,4 @@
+
 /* GCompris
  *
  * Copyright (C) 2016 Divyam Madaan <divyam3897@gmail.com>
@@ -29,130 +30,58 @@ QtObject {
             "image": imagesPrefix + "colosseum.jpg",
             "content": [
                 {
-                    "tags": ["monuments"],
                     "instructions": qsTr("Place the MONUMENTS to the right and other objects to the left"),
                     "image": imagesPrefix + "victoriaMemorial.jpg",
                     "maxNumberOfGood": 6,
                     "maxNumberOfBad": 6,
                     "prefix": "qrc:/gcompris/src/activities/categorization/resource/images/",
-                    "levelImages": [
-                        { 
-                            "monuments/bayterek.jpg": ["monuments"],
-                            "monuments/burj.jpg": ["monuments"],
-                            "monuments/cathedral.jpg": ["monuments"],
-                            "monuments/colosseum.jpg": ["monuments"],
-                            "monuments/beandenburgGate.jpg": ["monuments"],
-                            "monuments/arcDeTriomphe.jpg": ["monuments"],
-                            "renewable/windmill5.jpg": ["nature"],
-                            "renewable/dam2.jpg": ["renewable"],
-                            "tools/tweezer.jpg": ["tools"],
-                            "others/bulb.jpg": ["others"],
-                            "others/pan.jpg": ["others"],
-                            "others/knife.jpg": ["others"]
-                        }
-                    ]
+                    "good": ["monuments/bayterek.jpg","monuments/burj.jpg","monuments/cathedral.jpg","monuments/colosseum.jpg","monuments/beandenburgGate.jpg","monuments/arcDeTriomphe.jpg"],
+                    "bad": ["renewable/windmill5.jpg","renewable/dam2.jpg","tools/tweezer.jpg","others/bulb.jpg","others/pan.jpg","others/knife.jpg"]
                 },
                 {
-                    "tags": ["monuments"],
                     "instructions": qsTr("Place the MONUMENTS to the right and other objects to the left"),
                     "image": imagesPrefix + "parthenon.jpg",
                     "maxNumberOfGood": 6,
                     "maxNumberOfBad": 6,
                     "prefix": "qrc:/gcompris/src/activities/categorization/resource/images/",
-                    "levelImages": [
-                        {
-                            "monuments/christTheRedeemer.jpg": ["monuments"],
-                            "monuments/eiffelTower.jpg": ["monuments"],
-                            "monuments/empireState.jpg": ["monuments"],
-                            "monuments/greatPyramid.jpg": ["monuments"],
-                            "monuments/greatWall.jpg": ["monuments"],
-                            "monuments/IndiaGate.jpg": ["monuments"],
-                            "fishes/fish3.jpg": ["fishes"],
-                            "fishes/fish5.jpg": ["fishes"],
-                            "renewable/dam2.jpg": ["renewable"],
-                            "others/spoons.jpg": ["others"],
-                            "others/igloo.jpg": ["others"],
-                            "tools/measuringTape.jpg": ["tools"]
-                        }
-                    ]
+                    "good": ["monuments/christTheRedeemer.jpg","monuments/eiffelTower.jpg","monuments/empireState.jpg" ,"monuments/greatPyramid.jpg","monuments/greatWall.jpg","monuments/IndiaGate.jpg"],
+                    "bad": ["fishes/fish3.jpg","fishes/fish5.jpg","renewable/dam2.jpg","others/spoons.jpg","others/igloo.jpg","tools/measuringTape.jpg"]
                 },
                 {
-                    "tags": ["monuments"],
                     "instructions": qsTr("Place the MONUMENTS to the right and other objects to the left"),
                     "image": imagesPrefix + "monument2.jpg",
                     "maxNumberOfGood": 5,
                     "maxNumberOfBad": 4,
                     "prefix": "qrc:/gcompris/src/activities/categorization/resource/images/",
-                    "levelImages": [
-                        {
-                            "monuments/jucheTower.jpg": ["monuments"],
-                            "monuments/kutubMinar.jpg": ["monuments"],
-                            "monuments/leaningTowerOfPisa.jpg": ["monuments"],
-                            "monuments/leninMuseum.jpg": ["monuments"],
-                            "monuments/monument1.jpg": ["monuments"],
-                            "fishes/fish7.jpg": ["fishes"],
-                            "fishes/fish16.jpg": ["fishes"],
-                            "tools/hammer4.jpg": ["tools"],
-                            "tools/sprinkler.jpg": ["tools"]
-                        }
-                    ]
+                    "good": ["monuments/jucheTower.jpg","monuments/kutubMinar.jpg","monuments/leaningTowerOfPisa.jpg" ,"monuments/leninMuseum.jpg","monuments/monument1.jpg"],
+                    "bad": ["fishes/fish7.jpg","fishes/fish16.jpg","tools/hammer4.jpg","tools/sprinkler.jpg"]
                 },
                 {
-                    "tags": ["monuments"],
                     "instructions": qsTr("Place the MONUMENTS to the right and other objects to the left"),
                     "image": imagesPrefix + "greatPyramid.jpg",
                     "maxNumberOfGood": 5,
                     "maxNumberOfBad": 4,
                     "prefix": "qrc:/gcompris/src/activities/categorization/resource/images/",
-                    "levelImages": [
-                        {
-                            "monuments/mountRushmore.jpg": ["monuments"],
-                            "monuments/operaHouse.jpg": ["monuments"],
-                            "monuments/parthenon.jpg": ["monuments"],
-                            "monuments/statueOfLiberty.jpg": ["monuments"],
-                            "monuments/tajMahal.jpg": ["monuments"],
-                            "renewable/solar2.jpg": ["renewable"],
-                            "renewable/geothermal.jpg": ["renewable"],
-                            "tools/scissor.jpg": ["tools"],
-                            "tools/stripper1.png": ["tools"]
-                        }
-                    ]
+                    "good": ["monuments/mountRushmore.jpg","monuments/operaHouse.jpg","monuments/parthenon.jpg","monuments/statueOfLiberty.jpg","monuments/tajMahal.jpg"],
+                    "bad": ["renewable/solar2.jpg","renewable/geothermal.jpg","tools/scissor.jpg","tools/stripper1.png"]
                 },               
-		{
-                    "tags": ["monuments"],
+                {
                     "instructions": qsTr("Place the MONUMENTS to the right and other objects to the left"),
                     "image": imagesPrefix + "beandenburgGate.jpg",
                     "maxNumberOfGood": 3,
                     "maxNumberOfBad": 3,
                     "prefix": "qrc:/gcompris/src/activities/categorization/resource/images/",
-                    "levelImages": [
-                        {
-                            "monuments/usCapitol.jpg": ["monuments"],
-                            "monuments/victoriaMemorial.jpg": ["monuments"],
-                            "monuments/zimniPalace.jpg": ["monuments"],
-                            "tools/plier2.jpg": ["tools"],
-                            "others/pillow.jpg": ["others"],
-                            "renewable/solar5.jpg": ["renewable"]
-                        }
-                    ]
+                    "good": ["monuments/usCapitol.jpg","monuments/victoriaMemorial.jpg","monuments/zimniPalace.jpg"],
+                    "bad": ["tools/plier2.jpg","others/pillow.jpg","renewable/solar5.jpg"]
                 },
-		{
-                    "tags": ["monuments"],
+                {
                     "instructions": qsTr("Place the MONUMENTS to the right and other objects to the left"),
                     "image": imagesPrefix + "IndiaGate.jpg",
                     "maxNumberOfGood": 2,
                     "maxNumberOfBad": 4,
                     "prefix": "qrc:/gcompris/src/activities/categorization/resource/images/",
-                    "levelImages": [ 
-                        {  
-                            "monuments/monument2.jpg": ["monuments"],
-                            "monuments/monument3.jpg": ["monuments"],
-                            "others/volleyball.jpg": ["others"],
-                            "tools/sickle.jpg": ["tools"],
-                            "others/chair.jpg": ["tools"],
-                            "renewable/dam4.jpg": ["renewable"]
-                        }
-                    ]
+                    "good": ["monuments/monument2.jpg","monuments/monument3.jpg"],
+                    "bad": ["others/volleyball.jpg","tools/sickle.jpg","others/chair.jpg","renewable/dam4.jpg"]
                 }
             ]
             

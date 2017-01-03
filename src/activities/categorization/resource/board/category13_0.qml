@@ -29,130 +29,58 @@ QtObject{
             "image": imagesPrefix + "insect6.jpg",
             "content": [
                 {
-                    "tags": ["Insects"],
                     "instructions": qsTr("Place the INSECTS to the right and other objects to the left"),
                     "image": imagesPrefix + "insect15.jpg",
                     "maxNumberOfGood": 6,
                     "maxNumberOfBad": 6,
                     "prefix": "qrc:/gcompris/data/words/",
-                    "levelImages": [
-                        {
-                            "insects/insect1.jpg":["insects"],
-                            "insects/insect2.jpg":["insects"],
-                            "insects/insect3.jpg":["insects"],
-                            "insects/insect4.jpg":["insects"],
-                            "insects/insect5.jpg":["insects"],
-                            "insects/insect6.jpg":["insects"],
-                            "nature/nature4.jpg":["nature"],
-                            "plants/tree2.jpg":["plants"],
-                            "birds/bird8.jpg":["birds"],
-                            "birds/bird5.jpg":["birds"],
-                            "animals/giraffe.jpg":["animals"],
-                            "animals/horse.jpg":["animals"]
-                        }
-                    ]
+                    "good": ["insects/insect1.jpg","insects/insect2.jpg","insects/insect3.jpg","insects/insect4.jpg","insects/insect5.jpg","insects/insect6.jpg"],
+                    "bad": ["nature/nature4.jpg","plants/tree2.jpg","birds/bird8.jpg","birds/bird5.jpg","animals/giraffe.jpg","animals/horse.jpg"]
                 },
                 {
-                    "tags": ["insects"],
                     "instructions": qsTr("Place the INSECTS to the right and other objects to the left"),
                     "image": imagesPrefix + "insect25.jpg",
                     "maxNumberOfGood": 6,
                     "maxNumberOfBad": 6,
                     "prefix": "qrc:/gcompris/data/words/",
-                    "levelImages": [
-                        {
-                            "insects/insect7.jpg":["insects"],
-                            "insects/insect8.jpg":["insects"],
-                            "insects/insect9.jpg":["insects"],
-                            "insects/insect10.jpg":["insects"],
-                            "insects/insect11.jpg":["insects"],
-                            "insects/insect12.jpg":["insects"],
-                            "food/eggs.jpg":["food"],
-                            "birds/bird2.jpg":["birds"],
-                            "birds/bird3.jpg":["birds"],
-                            "animals/lion.jpg":["animals"],
-                            "animals/mouse.jpg":["animals"],
-                            "animals/elephant.jpg":["animals"]
-                        }
-                    ]
+                    "good": ["insects/insect7.jpg","insects/insect8.jpg","insects/insect9.jpg","insects/insect10.jpg","insects/insect11.jpg","insects/insect12.jpg"],
+                    "bad": ["food/eggs.jpg","birds/bird2.jpg","birds/bird3.jpg","animals/lion.jpg","animals/mouse.jpg","animals/elephant.jpg"]
                 },
                 {
-                    "tags": ["insects"],
                     "instructions": qsTr("Place the INSECTS to the right and other objects to the left"),
                     "image": imagesPrefix + "insect6.jpg",
                     "maxNumberOfGood": 5,
                     "maxNumberOfBad": 4,
                     "prefix": "qrc:/gcompris/data/words/",
-                    "levelImages": [
-                        {
-                            "insects/insect13.jpg":["insects"],
-                            "insects/insect14.jpg":["insects"],
-                            "insects/insect15.jpg":["insects"],
-                            "insects/insect16.jpg":["insects"],
-                            "insects/insect17.jpg":["insects"],
-                            "transport/helicopter.jpg":["transport"],
-                            "householdGoods/oven.jpg":["transport"],
-                            "birds/bird8.jpg":["birds"],
-                            "birds/bird9.jpg":["birds"]
-                        }
-                    ]
+                    "good": ["insects/insect13.jpg","insects/insect14.jpg","insects/insect15.jpg","insects/insect16.jpg","insects/insect17.jpg"],
+                    "bad": ["transport/helicopter.jpg","householdGoods/oven.jpg","birds/bird8.jpg","birds/bird9.jpg"]
                 },
                 {
-                    "tags": ["insects"],
                     "instructions": qsTr("Place the INSECTS to the right and other objects to the left"),
                     "image": imagesPrefix + "insect8.jpg",
                     "maxNumberOfGood": 5,
                     "maxNumberOfBad": 4,
                     "prefix": "qrc:/gcompris/data/words/",
-                    "levelImages": [
-                        {
-                            "insects/insect18.jpg":["insects"],
-                            "insects/insect19.jpg":["insects"],
-                            "insects/insect20.jpg":["insects"],
-                            "insects/insect21.jpg":["insects"],
-                            "insects/insect22.jpg":["insects"],
-                            "householdGoods/bed.jpg":["householdGoods"],
-                            "others/mobile.jpg":["others"],
-                            "birds/bird17.jpg":["birds"],
-                            "animals/hare.jpg":["animals"]
-                        }
-                    ]
+                    "good": ["insects/insect18.jpg","insects/insect19.jpg","insects/insect20.jpg","insects/insect21.jpg","insects/insect22.jpg"],
+                    "bad": ["householdGoods/bed.jpg","others/mobile.jpg","birds/bird17.jpg","animals/hare.jpg"]
                 },
                 {
-                    "tags": ["insects"],
                     "instructions": qsTr("Place the INSECTS to the right and other objects to the left"),
                     "image": imagesPrefix + "insect19.jpg",
                     "maxNumberOfGood": 3,
                     "maxNumberOfBad": 3,
                     "prefix": "qrc:/gcompris/data/words/",
-                    "levelImages": [
-                        {
-                            "insects/insect23.jpg":["insects"],
-                            "insects/insect24.jpg":["insects"],
-                            "insects/insect25.jpg":["insects"],
-                            "plants/tree3.jpg":["plants"],
-                            "birds/bird29.jpg":["birds"],
-                            "animals/pig.jpg":["animals"]
-                        }
-                    ]
+                    "good": ["insects/insect23.jpg","insects/insect24.jpg","insects/insect25.jpg"],
+                    "bad": ["plants/tree3.jpg","birds/bird29.jpg","animals/pig.jpg"]
                 },
                 {
-                    "tags": ["insects"],
                     "instructions": qsTr("Place the INSECTS to the right and other objects to the left"),
                     "image": imagesPrefix + "insect12.jpg",
                     "maxNumberOfGood": 3,
                     "maxNumberOfBad": 3,
                     "prefix": "qrc:/gcompris/data/words/",
-                    "levelImages": [
-                        {
-                            "insects/insect26.jpg":["insects"],
-                            "insects/insect27.jpg":["insects"],
-                            "insects/insect12.jpg":["insects"],
-                            "householdGoods/iron.jpg":["householdGoods"],
-                            "birds/bird33.jpg":["birds"],
-                            "animals/sheep.jpg":["animals"]
-                        }
-                    ]
+                    "good": ["insects/insect26.jpg","insects/insect27.jpg","insects/insect12.jpg"],
+                    "bad": ["householdGoods/iron.jpg","birds/bird33.jpg","animals/sheep.jpg"]
                 }
             ]
         }

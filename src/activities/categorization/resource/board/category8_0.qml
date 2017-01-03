@@ -29,152 +29,67 @@ QtObject{
             "image": imagesPrefix + "plants" + "/" + "plant1.jpg",
             "content": [
                 {
-                    "tags": ["living"],
                     "instructions": qsTr("Place the living beings to the right and other objects to the left"),
                     "image":imagesPrefix + "plants" + "/" + "plant5.jpg",
                     "maxNumberOfGood": 6,
                     "maxNumberOfBad": 6,
                     "prefix": "qrc:/gcompris/data/words/",
-                    "levelImages": [
-                        {
-                            "plants/plant2.jpg":["living"],
-                            "plants/tree1.jpg":["living"],
-                            "animals/donkey.jpg":["living"],
-                            "animals/horse.jpg":["living"],
-                            "birds/bird12.jpg":["living"],
-                            "birds/bird13.jpg":["living"],
-                            "transport/balloon.jpg":["transport"],
-                            "transport/bus.jpg":["transport"],
-                            "others/house.jpg":["others"],
-                            "others/clock.jpg":["others"],
-                            "householdGoods/ac.jpg":["householdGoods"],
-                            "others/pencil.jpg": ["others"]
-                        }
-                    ]
+                    "good": ["plants/plant2.jpg","plants/tree1.jpg","animals/donkey.jpg","animals/horse.jpg","birds/bird12.jpg","birds/bird13.jpg"],
+                    "bad": ["transport/balloon.jpg","transport/bus.jpg","others/house.jpg","others/clock.jpg","householdGoods/ac.jpg","others/pencil.jpg"]
                 },
                 {
-                    "tags": ["living"],
                     "instructions": qsTr("Place the living beings to the right and other objects to the left"),
                     "image":imagesPrefix + "insects" + "/" + "insect4.jpg",
                     "maxNumberOfGood": 6,
                     "maxNumberOfBad": 6,
                     "prefix": "qrc:/gcompris/data/words/",
-                    "levelImages": [
-                        {
-                            "insects/insect16.jpg":["living"],
-                            "birds/bird17.jpg":["living"],
-                            "insects/insect22.jpg":["living"],
-                            "insects/insect19.jpg":["living"],
-                            "insects/insect23.jpg":["living"],
-                            "birds/bird21.jpg":["living"],
-                            "transport/plane.jpg":["transport"],
-                            "transport/metro.jpg":["transport"],
-                            "householdGoods/refrigerator.jpg":["householdGoods"],
-                            "householdGoods/chest1.jpg":["householdGoods"],
-                            "food/grilledSandwich.jpg":["food"],
-                            "others/mobile.jpg": ["others"]
-                        }
-                    ]
+                    "good": ["insects/insect16.jpg","birds/bird17.jpg","insects/insect22.jpg","insects/insect19.jpg","insects/insect23.jpg","birds/bird21.jpg"],
+                    "bad": ["transport/plane.jpg","transport/metro.jpg","householdGoods/refrigerator.jpg","householdGoods/chest1.jpg","food/grilledSandwich.jpg","others/mobile.jpg"]
                 },
                 {
-                    "tags": ["living"],
                     "instructions": qsTr("Place the living beings to the right and other objects to the left"),
                     "image":imagesPrefix + "birds" + "/" + "bird5.jpg",
                     "maxNumberOfGood": 5,
                     "maxNumberOfBad": 4,
                     "prefix": "qrc:/gcompris/data/words/",
-                    "levelImages": [
-                        {
-                            "plants/plant1.jpg":["living"],
-                            "plants/tree2.jpg":["living"],
-                            "insects/insect3.jpg":["living"],
-                            "insects/insect4.jpg":["living"],
-                            "birds/bird1.jpg":["living"],
-                            "transport/rickshaw.jpg":["transport"],
-                            "householdGoods/bed.jpg":["householdGoods"],
-                            "others/broom1.jpg":["others"],
-                            "householdGoods/canOpener.jpg": ["householdGoods"]
-                        }
-                    ]
+                    "good":["plants/plant1.jpg","plants/tree2.jpg","insects/insect3.jpg","insects/insect4.jpg","birds/bird1.jpg"],
+                    "bad": ["transport/rickshaw.jpg","householdGoods/bed.jpg","others/pepsi.jpg","householdGoods/canOpener.jpg"]
                 },
                 {
-                    "tags": ["living"],
                     "instructions": qsTr("Place the living beings to the right and other objects to the left"),
                     "image":imagesPrefix + "plants" +"/" + "tree2.jpg",
                     "maxNumberOfGood": 4,
                     "maxNumberOfBad": 5,
                     "prefix": "qrc:/gcompris/data/words/",
-                    "levelImages": [
-                        {
-                            "plants/plant3.jpg":["living"],
-                            "plants/tree3.jpg":["living"],
-                            "animals/snowcat.jpg":["living"],
-                            "animals/pig.jpg":["living"],
-                            "transport/plane.jpg":["transport"],
-                            "food/frenchFries.jpg":["food"],
-                            "food/water.jpg": ["food"],
-                            "others/street.jpg": ["others"],
-                            "householdGoods/bed.jpg": ["householdGoods"]
-                        }
-                    ]
+                    "good": ["plants/plant3.jpg","plants/tree3.jpg","animals/snowcat.jpg","animals/pig.jpg"],
+                    "bad": ["transport/plane.jpg","food/frenchFries.jpg","food/water.jpg","others/street.jpg","householdGoods/bed.jpg"]
                 },
                 {
-                    "tags": ["living"],
                     "instructions": qsTr("Place the living beings to the right and other objects to the left"),
                     "image":imagesPrefix + "animals" + "/" + "opossum.jpg",
                     "maxNumberOfGood": 4,
                     "maxNumberOfBad": 5,
                     "prefix": "qrc:/gcompris/data/words/",
-                    "levelImages": [
-                        {
-                            "plants/tree4.jpg":["living"],
-                            "animals/giraffe.jpg":["living"],
-                            "insects/insect7.jpg":["living"],
-                            "birds/bird12.jpg":["living"],
-                            "birds/bird15.jpg":["living"],
-                            "householdGoods/heater.jpg":["householdGoods"],
-                            "householdGoods/couch.jpg":["householdGoods"],
-                            "transport/ship.jpg":["transport"],
-                            "others/fork.jpg": ["others"],
-                            "food/eggs.jpg": ["food"]
-                        }
-                    ]
+                    "good": ["plants/tree4.jpg","animals/giraffe.jpg","insects/insect7.jpg","birds/bird12.jpg","birds/bird15.jpg"],
+                    "bad": ["householdGoods/heater.jpg","householdGoods/couch.jpg","transport/ship.jpg","others/fork.jpg","food/eggs.jpg"]
                 },
                 {
-                    "tags": ["living"],
                     "instructions": qsTr("Place the living beings to the right and other objects to the left"),
                     "image":imagesPrefix + "animals" + "/" +  "hare.jpg",
                     "maxNumberOfGood": 3,
                     "maxNumberOfBad": 3,
                     "prefix": "qrc:/gcompris/data/words/",
-                    "levelImages": [
-                        {
-                            "plants/plant4.jpg":["living"],
-                            "animals/lion.jpg":["living"],
-                            "birds/bird24.jpg":["living"],
-                            "transport/helicopter.jpg":["transport"],
-                            "householdGoods/iron.jpg":["householdGoods"],
-                            "others/mobile.jpg": ["others"]
-                        }
-                    ]
+                    "good": ["plants/plant4.jpg","animals/lion.jpg","birds/bird24.jpg"],
+                    "bad": ["transport/helicopter.jpg","householdGoods/iron.jpg","others/mobile.jpg"]
                 },
                 {
-                    "tags": ["living"],
                     "instructions": qsTr("Place the living beings to the right and other objects to the left"),
                     "image":imagesPrefix + "insects" + "/" +  "insect5.jpg",
                     "maxNumberOfGood": 3,
                     "maxNumberOfBad": 3,
                     "prefix": "qrc:/gcompris/data/words/",
-                    "levelImages": [
-                        {
-                            "plants/plant5.jpg":["living"],
-                            "plants/plant6.jpg":["living"],
-                            "transport/rocket.jpg":["transport"],
-                            "nature/nature23.jpg":["living"],
-                            "others/pepsi.jpg":["others"],
-                            "food/hotdog.jpg": ["food"]
-                        }
-                    ]
+                    "good": ["plants/plant5.jpg","plants/plant6.jpg","animals/sheep.jpg"],
+                    "bad": ["transport/rocket.jpg","others/pepsi.jpg","food/hotdog.jpg"]
                 }
             ]
         }

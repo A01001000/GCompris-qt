@@ -29,130 +29,59 @@ QtObject {
             "image": imagesPrefix + "fish20.jpg",
             "content": [
                 {
-                    "tags": ["fish"],
                     "instructions": qsTr("Place the FISHES to the right and other objects to the left"),
                     "image": imagesPrefix + "fish10.jpg",
                     "maxNumberOfGood": 6,
                     "maxNumberOfBad": 6,
                     "prefix": "qrc:/gcompris/src/activities/categorization/resource/images/",
-                    "levelImages": [
-                        { 
-                            "fishes/fish1.jpg": ["fish"],
-                            "fishes/fish2.png": ["fish"],
-                            "fishes/fish3.jpg": ["fish"],
-                            "fishes/fish4.jpg": ["fish"],
-                            "fishes/fish5.jpg": ["fish"],
-                            "fishes/fish6.jpg": ["fish"],
-                            "monuments/beandenburgGate.jpg": ["monuments"],
-                            "monuments/burj.jpg": ["monuments"],
-                            "others/bulb.jpg": ["others"],
-                            "tools/cutingTool.jpg": ["tools"],
-                            "others/knife.jpg": ["tools"],
-                            "tools/multimeter.jpg": ["tools"]
-                        }
-                    ]
+                    "good": ["fishes/fish1.jpg","fishes/fish2.png","fishes/fish3.jpg","fishes/fish4.jpg","fishes/fish5.jpg","fishes/fish6.jpg"],
+                    "bad": ["monuments/beandenburgGate.jpg","monuments/burj.jpg","others/bulb.jpg","tools/cutingTool.jpg","others/knife.jpg","tools/multimeter.jpg"]
                 },
                 {
-                    "tags": ["fish"],
                     "instructions": qsTr("Place the FISHES to the right and other objects to the left"),
                     "image": imagesPrefix + "fish13.jpg",
                     "maxNumberOfGood": 6,
                     "maxNumberOfBad": 6,
                     "prefix": "qrc:/gcompris/src/activities/categorization/resource/images/",
-                    "levelImages": [
-                        {
-                            "fishes/fish7.jpg": ["fish"],
-                            "fishes/fish8.jpg": ["fish"],
-                            "fishes/fish9.jpg": ["fish"],
-                            "fishes/fish10.jpg": ["fish"],
-                            "fishes/fish11.jpg": ["fish"],
-                            "fishes/fish12.jpg": ["fish"],
-                            "renewable/dam2.jpg": ["renewable"],
-                            "renewable/solar5.jpg": ["renewable"],
-                            "others/pillow.jpg": ["others"],
-                            "tools/plier2.jpg": ["tools"],
-                            "tools/nailCutter.jpg": ["tools"],
-                            "monuments/colosseum.jpg": ["monuments"]
-                        }
-                    ]
+                    "good": ["fishes/fish7.jpg","fishes/fish8.jpg","fishes/fish9.jpg","fishes/fish10.jpg","fishes/fish11.jpg","fishes/fish12.jpg"],
+                    "bad": ["renewable/dam2.jpg","renewable/solar5.jpg","others/pillow.jpg","tools/plier2.jpg","tools/nailCutter.jpg","monuments/colosseum.jpg"]
                 },
                 {
-                    "tags": ["fish"],
                     "instructions": qsTr("Place the FISHES to the right and other objects to the left"),
                     "image": imagesPrefix + "fish3.jpg",
                     "maxNumberOfGood": 5,
                     "maxNumberOfBad": 4,
                     "prefix": "qrc:/gcompris/src/activities/categorization/resource/images/",
-                    "levelImages": [
-                        {
-                            "fishes/fish13.jpg": ["fish"],
-                            "fishes/fish14.jpg": ["fish"],
-                            "fishes/fish15.jpg": ["fish"],
-                            "fishes/fish16.jpg": ["fish"],
-                            "fishes/fish17.jpg": ["fish"],
-                            "others/bulb.jpg": ["birds"],
-                            "others/chair.jpg": ["birds"],
-                            "renewable/windmill.jpg": ["renewable"],
-                            "monuments/monument2.jpg": ["renewable"]
-                        }
-                    ]
+                    "good": ["fishes/fish13.jpg","fishes/fish14.jpg","fishes/fish15.jpg","fishes/fish16.jpg","fishes/fish17.jpg"],
+                    "bad": ["others/bulb.jpg","others/chair.jpg","renewable/windmill.jpg","monuments/monument2.jpg"]
                 },
                 {
-                    "tags": ["fish"],
                     "instructions": qsTr("Place the FISHES to the right and other objects to the left"),
                     "image": imagesPrefix + "fish16.jpg",
                     "maxNumberOfGood": 5,
                     "maxNumberOfBad": 4,
                     "prefix": "qrc:/gcompris/src/activities/categorization/resource/images/",
-                    "levelImages": [
-                        {
-                            "fishes/fish18.jpg": ["fish"],
-                            "fishes/fish19.jpg": ["fish"],
-                            "fishes/fish20.jpg": ["fish"],
-                            "fishes/fish21.jpg": ["fish"],
-                            "fishes/fish22.jpg": ["fish"],
-                            "others/plate.jpg": ["birds"],
-                            "monuments/operaHouse.jpg":["monuments"],
-                            "monuments/zimniPalace.jpg":["monuments"],
-                            "renewable/geothermal.jpg":["renewable"]
-                        }
-                    ]
+                    "good": ["fishes/fish18.jpg","fishes/fish19.jpg","fishes/fish20.jpg","fishes/fish21.jpg",
+                            "fishes/fish22.jpg"],
+                    "bad": ["others/plate.jpg","monuments/operaHouse.jpg","monuments/zimniPalace.jpg","renewable/geothermal.jpg"]
                 },
                 {
-                    "tags": ["fish"],
                     "instructions": qsTr("Place the FISHES to the right and other objects to the left"),
                     "image": imagesPrefix + "fish20.jpg",
                     "maxNumberOfGood": 3,
                     "maxNumberOfBad": 3,
                     "prefix": "qrc:/gcompris/src/activities/categorization/resource/images/",
-                    "levelImages": [ 
-                        { 
-                            "fishes/fish23.jpg": ["fish"],
-                            "fishes/fish24.jpg": ["fish"],
-                            "fishes/fish25.jpg": ["fish"],
-                            "monuments/monument3.jpg": ["monuments"],
-                            "others/pan.jpg": ["others"],
-                            "others/pencil.jpg": ["others"]
-                        }
-                    ]
+                    "good": ["fishes/fish23.jpg","fishes/fish24.jpg", "fishes/fish25.jpg"],
+                    "bad": ["monuments/monument3.jpg","others/pan.jpg","others/pencil.jpg"]
                 },
                 {
-                    "tags": ["fish"],
                     "instructions": qsTr("Place the FISHES to the right and other objects to the left"),
                     "image": imagesPrefix + "fish25.jpg",
                     "maxNumberOfGood": 3,
                     "maxNumberOfBad": 3,
                     "prefix": "qrc:/gcompris/src/activities/categorization/resource/images/",
-                    "levelImages": [ 
-                        { 
-                            "fishes/fish26.jpg": ["fish"],
-                            "fishes/fish27.jpg": ["fish"],
-                            "fishes/fish28.jpg": ["fish"],
-                            "renewable/windmill13.jpg": ["renewable"],
-                            "renewable/geothermal.jpg": ["renewable"],
-                            "tools/scissors.jpg": ["tools"]
-                        }
-                    ]
+                    "good": ["fishes/fish26.jpg","fishes/fish27.jpg","fishes/fish28.jpg"],
+                    "bad": ["renewable/windmill13.jpg","renewable/geothermal.jpg","tools/scissors.jpg"]
                 }
             ]
             

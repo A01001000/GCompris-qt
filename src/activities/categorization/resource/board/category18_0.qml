@@ -29,130 +29,58 @@ QtObject{
             "image": imagesPrefix + "pizza.jpg",
             "content": [
                 {
-                    "tags": ["food"],
                     "instructions": qsTr("Place the FOOD ITEMS to the right and other objects to the left"),
                     "image": imagesPrefix + "sweetBread.jpg",
                     "maxNumberOfGood": 6,
                     "maxNumberOfBad": 6,
                     "prefix": "qrc:/gcompris/data/words/",
-                    "levelImages": [
-                        {
-                            "food/applepie.jpg":["food"],
-                            "food/bananaNutBread.jpg":["food"],
-                            "food/biryani.jpg":["food"],
-                            "food/cereal.jpg":["food"],
-                            "food/cheese.jpg":["food"],
-                            "food/eggs.jpg":["food"],
-                            "nature/nature28.jpg":["nature"],
-                            "plants/plant2.jpg":["plants"],
-                            "nature/nature27.jpg":["nature"],
-                            "birds/bird1.jpg":["birds"],
-                            "nature/nature17.jpg":["nature"],
-                            "insects/insect10.jpg":["insects"]
-                        }
-                    ]
+                    "good": ["food/applepie.jpg","food/bananaNutBread.jpg","food/biryani.jpg","food/cereal.jpg","food/cheese.jpg","food/eggs.jpg"],
+                    "bad": ["nature/nature28.jpg","plants/plant2.jpg","nature/nature27.jpg","birds/bird1.jpg","nature/nature17.jpg","insects/insect10.jpg"]
                 },
                 {
-                    "tags": ["food"],
                     "instructions": qsTr("Place the FOOD ITEMS to the right and other objects to the left"),
                     "image": imagesPrefix + "pizza1.jpg",
                     "maxNumberOfGood": 6,
                     "maxNumberOfBad": 6,
                     "prefix": "qrc:/gcompris/data/words/",
-                    "levelImages": [
-                        {
-                            "food/fish.jpg":["food"],
-                            "food/frenchFries.jpg":["food"],
-                            "food/friedEggs.jpg":["food"],
-                            "food/grilledSandwich.jpg":["food"],
-                            "food/hamburger.jpg":["food"],
-                            "food/hotdog.jpg":["food"],
-                            "nature/nature26.jpg":["nature"],
-                            "birds/bird25.jpg":["birds"],
-                            "transport/cycle.jpg":["transport"],
-                            "insects/insect1.jpg":["insects"],
-                            "nature/nature24.jpg":["nature"],
-                            "others/fork.jpg":["others"]
-                        }
-                    ]
+                    "good": ["food/fish.jpg","food/frenchFries.jpg","food/friedEggs.jpg","food/grilledSandwich.jpg","food/hamburger.jpg","food/hotdog.jpg"],
+                    "bad": ["nature/nature26.jpg","birds/bird25.jpg","transport/cycle.jpg","insects/insect1.jpg","nature/nature24.jpg","others/fork.jpg"]
                 },
                 {
-                    "tags": ["food"],
                     "instructions": qsTr("Place the FOOD ITEMS to the right and other objects to the left"),
                     "image": imagesPrefix + "hotdog.jpg",
                     "maxNumberOfGood": 5,
                     "maxNumberOfBad": 4,
                     "prefix": "qrc:/gcompris/data/words/",
-                    "levelImages": [
-                        {
-                            "food/icecream.jpg":["food"],
-                            "food/cereal1.jpg":["food"],
-                            "food/cheese1.jpg":["food"],
-                            "food/kathiRoll.jpg":["food"],
-                            "food/macroni.jpg":["food"],
-                            "animals/camel.jpg":["animals"],
-                            "animals/hare.jpg":["animals"],
-                            "insects/insect4.jpg":["insects"],
-                            "birds/bird5.jpg":["birds"]
-                        }
-                    ]
+                    "good": ["food/icecream.jpg","food/cereal1.jpg","food/cheese1.jpg","food/kathiRoll.jpg","food/macroni.jpg"],
+                    "bad": ["animals/camel.jpg","animals/hare.jpg","insects/insect4.jpg","birds/bird5.jpg"]
                 },
                 {
-                    "tags": ["food"],
                     "instructions": qsTr("Place the FOOD ITEMS to the right and other objects to the left"),
                     "image": imagesPrefix + "frenchFries.jpg",
                     "maxNumberOfGood": 5,
                     "maxNumberOfBad": 4,
                     "prefix": "qrc:/gcompris/data/words/",
-                    "levelImages": [
-                        {
-                            "food/MaozVegetariano.jpg":["food"],
-                            "food/milk.jpg":["food"],
-                            "food/bananaNutBread.jpg":["food"],
-                            "food/pitaBread.jpg":["food"],
-                            "food/pizza.jpg":["food"],
-                            "birds/bird6.jpg":["birds"],
-                            "others/street.jpg":["others"],
-                            "householdGoods/iron2.jpg":["householdGoods"],
-                            "insects/insect8.jpg":["insects"]
-                        }
-                    ]
+                    "good": ["food/MaozVegetariano.jpg","food/milk.jpg","food/bananaNutBread.jpg","food/pitaBread.jpg","food/pizza.jpg"],
+                    "bad": ["birds/bird6.jpg","others/street.jpg","householdGoods/iron2.jpg","insects/insect8.jpg"]
                 },
                 {
-                    "tags": ["food"],
                     "instructions": qsTr("Place the FOOD ITEMS to the right and other objects to the left"),
                     "image": imagesPrefix + "hamburger.jpg",
                     "maxNumberOfGood": 3,
                     "maxNumberOfBad": 3,
                     "prefix": "qrc:/gcompris/data/words/",
-                    "levelImages": [
-                        {
-                            "food/icecream1.jpg":["food"],
-                            "food/riceBeans.jpg":["food"],
-                            "food/scrambledEggsVeggies.jpg":["food"],
-                            "nature/nature21.jpg":["nature"],
-                            "plants/tree2.jpg":["plants"],
-                            "householdGoods/bed.jpg":["householdGoods"]
-                        }
-                    ]
+                    "good": ["food/icecream1.jpg","food/riceBeans.jpg","food/scrambledEggsVeggies.jpg"],
+                    "bad": ["nature/nature21.jpg","plants/tree2.jpg","householdGoods/bed.jpg"]
                 },
                 {
-                    "tags": ["food"],
                     "instructions": qsTr("Place the FOOD ITEMS to the right and other objects to the left"),
                     "image": imagesPrefix + "milk.jpg",
                     "maxNumberOfGood": 3,
                     "maxNumberOfBad": 3,
                     "prefix": "qrc:/gcompris/data/words/",
-                    "levelImages": [
-                        {
-                            "food/skimmedMilk.jpg":["food"],
-                            "food/steak.jpg":["food"],
-                            "food/sweetBread.jpg":["food"],
-                            "birds/bird4.jpg":["birds"],
-                            "animals/koala.jpg":["animals"],
-                            "transport/ferry.jpg":["transport"]
-                        }
-                    ]
+                    "good": ["food/skimmedMilk.jpg","food/steak.jpg","food/sweetBread.jpg"],
+                    "bad": ["birds/bird4.jpg","animals/koala.jpg","transport/ferry.jpg"]
                 }
             ]
         }

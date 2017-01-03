@@ -26,7 +26,7 @@ import "categorization.js" as Activity
 
 Flow {
     id: zoneFlow
-    width: parent.width/3.2
+    width: parent.width/3
     height: parent.height
     property alias repeater: repeater
     property alias model: zoneModel

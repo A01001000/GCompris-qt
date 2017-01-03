@@ -29,169 +29,76 @@ QtObject{
             "image": imagesPrefix + "nature7.jpg",
             "content": [
                 {
-                    "tags": ["nature"],
                     "instructions": qsTr("Place the NATURE images to the right and other objects to the left"),
                     "image": imagesPrefix + "nature25.jpg",
                     "maxNumberOfGood": 6,
                     "maxNumberOfBad": 6,
                     "prefix": "qrc:/gcompris/data/words/",
-                    "levelImages": [
-                        {
-                            "nature/nature1.jpg":["nature"],
-                            "nature/nature2.jpg":["nature"],
-                            "nature/nature3.jpg":["nature"],
-                            "nature/nature4.jpg":["nature"],
-                            "nature/nature5.jpg":["nature"],
-                            "nature/nature6.jpg":["nature"],
-                            "transport/train3.jpg":["transport"],
-                            "others/spoon.jpg":["others"],
-                            "transport/bus.jpg":["others"],
-                            "others/clock.jpg":["others"],
-                            "food/hamburger.jpg":["animals"],
-                            "food/macroni.jpg":["animals"]
-                        }
-                    ]
+                    "good": ["nature/nature1.jpg","nature/nature2.jpg","nature/nature3.jpg","nature/nature4.jpg","nature/nature5.jpg","nature/nature6.jpg"],
+                    "bad": ["transport/train3.jpg","others/spoon.jpg","transport/bus.jpg","others/clock.jpg","food/hamburger.jpg","food/macroni.jpg"]
                 },
                 {
-                    "tags": ["nature"],
                     "instructions": qsTr("Place the NATURE images to the right and other objects to the left"),
                     "image": imagesPrefix + "nature28.jpg",
                     "maxNumberOfGood": 6,
                     "maxNumberOfBad": 6,
                     "prefix": "qrc:/gcompris/data/words/",
-                    "levelImages": [
-                        {
-                            "nature/nature7.jpg":["nature"],
-                            "nature/nature8.jpg":["nature"],
-                            "nature/nature9.jpg":["nature"],
-                            "nature/nature10.jpg":["nature"],
-                            "nature/nature11.jpg":["nature"],
-                            "nature/nature12.jpg":["nature"],
-                            "fruits/mango.jpg":["fruits"],
-                            "vegetables/onion.jpg":["vegetables"],
-                            "transport/cycle.jpg":["others"],
-                            "others/fork.jpg":["others"],
-                            "food/riceBeans.jpg":["food"],
-                            "others/pepsi.jpg":["others"]
-                        }
-                    ]
+                    "good": ["nature/nature7.jpg","nature/nature8.jpg","nature/nature9.jpg","nature/nature10.jpg", "nature/nature11.jpg","nature/nature12.jpg"],
+                    "bad": ["fruits/mango.jpg","vegetables/onion.jpg","transport/cycle.jpg","others/fork.jpg","food/riceBeans.jpg","others/pepsi.jpg"]
                 },
                 {
-                    "tags": ["nature"],
                     "instructions": qsTr("Place the NATURE images to the right and other objects to the left"),
                     "image": imagesPrefix + "nature22.jpg",
                     "maxNumberOfGood": 5,
                     "maxNumberOfBad": 4,
                     "prefix": "qrc:/gcompris/data/words/",
-                    "levelImages": [
-                        {
-                            "nature/nature13.jpg":["nature"],
-                            "nature/nature14.jpg":["nature"],
-                            "nature/nature15.jpg":["nature"],
-                            "nature/nature16.jpg":["nature"],
-                            "nature/nature17.jpg":["nature"],
-                            "transport/autorickshaw.jpg":["transport"],
-                            "transport/bulletTrain.jpg":["transport"],
-                            "food/pizza.jpg":["food"],
-                            "householdGoods/chest.jpg":["householdGoods"]
-                        }
-                    ]
+                    "good": ["nature/nature13.jpg","nature/nature14.jpg","nature/nature15.jpg","nature/nature16.jpg","nature/nature17.jpg"],
+                    "bad": ["transport/autorickshaw.jpg","transport/bulletTrain.jpg","householdGoods/chest.jpg","others/broom1.jpg"]
                 },
                 {
-                    "tags": ["nature"],
                     "instructions": qsTr("Place the NATURE images to the right and other objects to the left"),
                     "image": imagesPrefix + "nature2.jpg",
                     "maxNumberOfGood": 5,
                     "maxNumberOfBad": 4,
                     "prefix": "qrc:/gcompris/data/words/",
-                    "levelImages": [
-                        {
-                            "nature/nature18.jpg":["nature"],
-                            "nature/nature19.jpg":["nature"],
-                            "nature/nature20.jpg":["nature"],
-                            "nature/nature21.jpg":["nature"],
-                            "nature/nature22.jpg":["nature"],
-                            "transport/train5.jpg":["transport"],
-                            "transport/tram1.jpg":["food"],
-                            "others/mobile.jpg":["others"],
-                            "others/electricfan.jpg":["others"]
-                        }
-                    ]
+                    "good": ["nature/nature18.jpg","nature/nature19.jpg","nature/nature20.jpg","nature/nature21.jpg","nature/nature22.jpg"],
+                    "bad": ["transport/train5.jpg","transport/tram1.jpg","others/mobile.jpg","others/electricfan.jpg"]
                 },
                 {
-                    "tags": ["nature"],
                     "instructions": qsTr("Place the NATURE images to the right and other objects to the left"),
                     "image": imagesPrefix + "nature2.jpg",
                     "maxNumberOfGood": 5,
                     "maxNumberOfBad": 4,
                     "prefix": "qrc:/gcompris/data/words/",
-                    "levelImages": [
-                        {
-                            "nature/nature29.jpg":["nature"],
-                            "nature/nature30.jpg":["nature"],
-                            "nature/nature31.jpg":["nature"],
-                            "nature/nature32.jpg":["nature"],
-                            "nature/nature33.jpg":["nature"],
-                            "fruits/pineapple.jpg":["fruits"],
-                            "food/pitaBread.jpg":["food"],
-                            "householdGoods/bed.jpg":["householdGoods"],
-                            "others/house.jpg":["others"]
-                        }
-                    ]
+                    "good": ["nature/nature29.jpg","nature/nature30.jpg","nature/nature31.jpg","nature/nature32.jpg","nature/nature33.jpg"],
+                    "bad": ["fruits/pineapple.jpg","food/pitaBread.jpg","householdGoods/bed.jpg","others/house.jpg"]
                 },
                 {
-                    "tags": ["nature"],
                     "instructions": qsTr("Place the NATURE images to the right and other objects to the left"),
                     "image": imagesPrefix + "nature6.jpg",
                     "maxNumberOfGood": 3,
                     "maxNumberOfBad": 3,
                     "prefix": "qrc:/gcompris/data/words/",
-                    "levelImages": [
-                        {
-                            "nature/nature23.jpg":["nature"],
-                            "nature/nature24.jpg":["nature"],
-                            "nature/nature25.jpg":["nature"],
-                            "vegetables/zucchini.jpg":["vegetables"],
-                            "others/street.jpg":["others"],
-                            "householdGoods/couch.jpg":["householdGoods"]
-                        }
-                    ]
+                    "good": ["nature/nature23.jpg","nature/nature24.jpg","nature/nature25.jpg"],
+                    "bad": ["vegetables/zucchini.jpg","others/street.jpg","householdGoods/couch.jpg"]
                 },
                 {
-                    "tags": ["nature"],
                     "instructions": qsTr("Place the NATURE images to the right and other objects to the left"),
                     "image": imagesPrefix + "nature14.jpg",
                     "maxNumberOfGood": 3,
                     "maxNumberOfBad": 3,
                     "prefix": "qrc:/gcompris/data/words/",
-                    "levelImages": [
-                        {
-                            "nature/nature26.jpg":["nature"],
-                            "nature/nature27.jpg":["nature"],
-                            "nature/nature28.jpg":["nature"],
-                            "food/MaozVegetariano.jpg":["food"],
-                            "transport/rickshaw2.jpg":["transport"],
-                            "others/electricfan.jpg":["others"]
-                        }
-                    ]
+                    "good": ["nature/nature26.jpg","nature/nature27.jpg","nature/nature28.jpg"],
+                    "bad": ["food/MaozVegetariano.jpg","transport/rickshaw2.jpg","others/electricfan.jpg"]
                 },
                 {
-                    "tags": ["nature"],
                     "instructions": qsTr("Place the NATURE images to the right and other objects to the left"),
                     "image": imagesPrefix + "nature14.jpg",
                     "maxNumberOfGood": 2,
                     "maxNumberOfBad": 4,
                     "prefix": "qrc:/gcompris/data/words/",
-                    "levelImages": [
-                        {
-                            "nature/nature34.jpg":["nature"],
-                            "nature/nature35.jpg":["nature"],
-                            "householdGoods/chair2.jpg":["householdGoods"],
-                            "food/milk.jpg":["food"],
-                            "others/weighingmachine.jpg":["others"],
-                            "others/pencil.jpg":["others"]
-                        }
-                    ]
+                    "good": ["nature/nature34.jpg","nature/nature35.jpg"],
+                    "bad": ["householdGoods/chair2.jpg","food/milk.jpg","others/weighingmachine.jpg","others/pencil.jpg"]
                 }
             ]
         }

@@ -29,196 +29,85 @@ QtObject{
             "image": imagesPrefix + "animalsherd.jpg",
             "content": [
                 {
-                    "tags": ["animals"],
-                    "instructions": qsTr("Place the ANIMALS to the right and other objects to the left"),
-                    "image": imagesPrefix + "waterturtle.jpg",
-                    "maxNumberOfGood": 6,
-                    "maxNumberOfBad": 6,
-                    "prefix": "qrc:/gcompris/data/words/",
-                    "levelImages": [
-                        {
-                            "animals/baboon.jpg":["animals"],
-                            "animals/bosmutus.jpg":["animals"],
-                            "animals/camel.jpg":["animals"],
-                            "animals/cow.jpg":["animals"],
-                            "animals/dog.jpg":["animals"],
-                            "animals/dolphin.jpg":["animals"],
-                            "birds/bird10.jpg":["birds"],
-                            "birds/bird11.jpg":["birds"],
-                            "birds/bird12.jpg":["birds"],
-                            "birds/bird13.jpg":["birds"],
-                            "others/electricfan.jpg":["others"],
-                            "others/clock.jpg":["others"]
-                        }
-                    ]
-                },
-                {
-                    "tags": ["animals"],
                     "instructions": qsTr("Place the ANIMALS to the right and other objects to the left"),
                     "image": imagesPrefix + "tiger.jpg",
                     "maxNumberOfGood": 6,
                     "maxNumberOfBad": 6,
                     "prefix": "qrc:/gcompris/data/words/",
-                    "levelImages": [
-                        {
-                            "animals/lion.jpg":["animals"],
-                            "animals/marsupialis.jpg":["animals"],
-                            "animals/mouse.jpg":["animals"],
-                            "animals/mouse1.jpg":["animals"],
-                            "animals/opossum.jpg":["animals"],
-                            "animals/pig.jpg":["animals"],
-                            "birds/bird6.jpg":["birds"],
-                            "birds/bird7.jpg":["birds"],
-                            "birds/bird8.jpg":["birds"],
-                            "birds/bird9.jpg":["birds"],
-                            "transport/rickshaw.jpg":["transport"],
-                            "transport/bus.jpg":["transport"]
-                        }
-                    ]
+                    "good": ["animals/baboon.jpg","animals/bosmutus.jpg","animals/camel.jpg","animals/cow.jpg","animals/dog.jpg","animals/sealion.jpg"],
+                    "bad": ["birds/bird10.jpg","birds/bird12.jpg","birds/bird13.jpg","others/electricfan.jpg","others/clock.jpg","nature/nature10.jpg"]
                 },
                 {
-                    "tags": ["animals"],
+                    "instructions": qsTr("Place the ANIMALS to the right and other objects to the left"),
+                    "image": imagesPrefix + "tiger.jpg",
+                    "maxNumberOfGood": 6,
+                    "maxNumberOfBad": 6,
+                    "prefix": "qrc:/gcompris/data/words/",
+                    "good": ["animals/lion.jpg","animals/marsupialis.jpg","animals/mouse.jpg","animals/mouse1.jpg","animals/opossum.jpg","animals/pig.jpg"],
+                    "bad": ["birds/bird6.jpg","birds/bird7.jpg","birds/bird8.jpg","birds/bird9.jpg","transport/rickshaw.jpg","transport/bus.jpg"]
+                },
+                {
                     "instructions": qsTr("Place the ANIMALS to the right and other objects to the left"),
                     "image": imagesPrefix + "opossum.jpg",
                     "maxNumberOfGood": 6,
                     "maxNumberOfBad": 6,
                     "prefix": "qrc:/gcompris/data/words/",
-                    "levelImages": [
-                        {
-                            "animals/snowcat.jpg":["animals"],
-                            "animals/spidermonkey.jpg":["animals"],
-                            "animals/squirrel.jpg":["animals"],
-                            "animals/squirrel1.jpg":["animals"],
-                            "animals/tasmaniandevil.jpg":["animals"],
-                            "animals/pelonquintana.jpg":["animals"],
-                            "birds/bird22.jpg":["birds"],
-                            "birds/bird23.jpg":["birds"],
-                            "birds/bird24.jpg":["birds"],
-                            "others/house.jpg":["others"],
-                            "transport/car.jpg":["transport"],
-                            "plants/plant4.jpg":["plants"],
-                            "nature/nature5.jpg":["nature"]
-                        }
-                    ]
+                    "good": ["animals/snowcat.jpg","animals/spidermonkey.jpg","animals/squirrel.jpg","animals/squirrel1.jpg","animals/tasmaniandevil.jpg","animals/pelonquintana.jpg"],
+                    "bad": ["birds/bird22.jpg","birds/bird23.jpg","others/house.jpg","transport/plane2.jpg","plants/plant4.jpg","nature/nature5.jpg"]
                 },
                 {
-                    "tags": ["animals"],
                     "instructions": qsTr("Place the ANIMALS to the right and other objects to the left"),
                     "image": imagesPrefix + "tortoise.jpg",
                     "maxNumberOfGood": 5,
                     "maxNumberOfBad": 4,
                     "prefix": "qrc:/gcompris/data/words/",
-                    "levelImages": [
-                        {
-                            "animals/redeyedfrog.jpg":["animals"],
-                            "animals/scorpian.jpg":["animals"],
-                            "animals/sealion.jpg":["animals"],
-                            "animals/sheep.jpg":["animals"],
-                            "animals/snake.jpg":["animals"],
-                            "birds/bird18.jpg":["birds"],
-                            "birds/bird19.jpg":["birds"],
-                            "food/fish.jpg":["food"],
-                            "food/icecream.jpg":["food"]
-                        }
-                    ]
+                    "good": ["animals/redeyedfrog.jpg","animals/scorpian.jpg","animals/sealion.jpg","animals/sheep.jpg","animals/snake.jpg"],
+                    "bad": ["birds/bird18.jpg","birds/bird19.jpg","food/fish.jpg","food/icecream.jpg"]
                 },
                 {
-                    "tags": ["animals"],
                     "instructions": qsTr("Place the ANIMALS to the right and other objects to the left"),
                     "image": imagesPrefix + "koala.jpg",
                     "maxNumberOfGood": 5,
                     "maxNumberOfBad": 4,
                     "prefix": "qrc:/gcompris/data/words/",
-                    "levelImages": [
-                        {
-                            "animals/donkey.jpg":["animals"],
-                            "animals/elephant.jpg":["animals"],
-                            "animals/hare.jpg":["animals"],
-                            "animals/tiger.jpg":["animals"],
-                            "animals/zebra.jpg":["animals"],
-                            "birds/parrot.jpg":["birds"],
-                            "insects/insect20.jpg":["insects"],
-                            "transport/cycle.jpg":["transport"],
-                            "plants/tree3.jpg":["plants"]
-                        }
-                    ]
+                    "good": ["animals/donkey.jpg","animals/elephant.jpg","animals/hare.jpg","animals/tiger.jpg","animals/zebra.jpg"],
+                    "bad": ["birds/parrot.jpg","insects/insect20.jpg","transport/cycle.jpg","plants/tree3.jpg"]
                 },
                 {
-                    "tags": ["animals"],
                     "instructions": qsTr("Place the ANIMALS to the right and other objects to the left"),
                     "image": imagesPrefix + "hedgehog.jpg",
                     "maxNumberOfGood": 4,
                     "maxNumberOfBad": 5,
                     "prefix": "qrc:/gcompris/data/words/",
-                    "levelImages": [
-                        {
-                            "animals/giraffe.jpg":["animals"],
-                            "animals/hare.jpg":["animals"],
-                            "animals/hedgehog.jpg":["animals"],
-                            "animals/horse.jpg":["animals"],
-                            "birds/bird21.jpg":["birds"],
-                            "birds/bird25.jpg":["birds"],
-                            "food/cheese.jpg":["food"],
-                            "others/mobile.jpg":["others"],
-                            "insects/insect7.jpg":["insects"]
-                        }
-                    ]
+                    "good": ["animals/giraffe.jpg","animals/hare.jpg","animals/hedgehog.jpg","animals/horse.jpg"],
+                    "bad": ["birds/bird21.jpg","birds/bird25.jpg","food/cheese.jpg","others/mobile.jpg","insects/insect7.jpg"]
                 },
                 {
-                    "tags": ["animals"],
                     "instructions": qsTr("Place the ANIMALS to the right and other objects to the left"),
                     "image": imagesPrefix + "lion.jpg",
                     "maxNumberOfGood": 3 ,
                     "maxNumberOfBad": 3,
                     "prefix": "qrc:/gcompris/data/words/",
-                    "levelImages": [
-                        {
-                            "animals/koala.jpg":["animals"],
-                            "animals/kodiak-bear.jpg":["animals"],
-                            "animals/krotiki.jpg":["animals"],
-                            "birds/bird26.jpg":["birds"],
-                            "birds/bird27.jpg":["birds"],
-                            "food/eggs.jpg":["food"],
-                            "food/hamburger.jpg":["food"]
-                        }
-                    ]
+                    "good": ["animals/koala.jpg","animals/kodiak-bear.jpg","animals/krotiki.jpg"],
+                    "bad": ["birds/bird26.jpg","birds/bird27.jpg","food/eggs.jpg","food/hamburger.jpg"]
                 },
                 {
-                    "tags": ["animals"],
                     "instructions": qsTr("Place the ANIMALS to the right and other objects to the left"),
                     "image": imagesPrefix + "pig.jpg",
                     "maxNumberOfGood": 3,
                     "maxNumberOfBad": 3,
                     "prefix": "qrc:/gcompris/data/words/",
-                    "levelImages": [
-                        {
-                            "animals/tiger.jpg":["animals"],
-                            "animals/tortoise.jpg":["animals"],
-                            "animals/tortoise1.jpg":["animals"],
-                            "birds/bird28.jpg":["birds"],
-                            "birds/bird29.jpg":["birds"],
-                            "fruits/papaya.jpg":["fruits"],
-                            "food/hotdog.jpg":["food"]
-                        }
-                    ]
+                    "good": ["animals/tiger.jpg","animals/tortoise.jpg","animals/tortoise1.jpg"],
+                    "bad": ["birds/bird28.jpg","birds/bird29.jpg","fruits/papaya.jpg","food/hotdog.jpg"]
                 },
                 {
-                    "tags": ["animals"],
                     "instructions": qsTr("Place the ANIMALS to the right and other objects to the left"),
                     "image": imagesPrefix + "snowcat.jpg",
-                    "maxNumberOfGood": 4,
-                    "maxNumberOfBad": 5,
+                    "maxNumberOfGood": 2,
+                    "maxNumberOfBad": 4,
                     "prefix": "qrc:/gcompris/data/words/",
-                    "levelImages": [
-                        {
-                            "animals/porcupine.jpg":["animals"],
-                            "animals/waterturtle.jpg":["animals"],
-                            "birds/bird32.jpg":["birds"],
-                            "birds/bird33.jpg":["birds"],
-                            "food/macroni.jpg":["food"],
-                            "others/house.jpg":["others"]
-                        }
-                    ]
+                    "good": ["animals/porcupine.jpg","animals/cow.jpg"],
+                    "bad": ["birds/bird32.jpg","birds/bird33.jpg","food/macroni.jpg","others/house.jpg"]
                 }
             ]
         }

@@ -29,71 +29,31 @@ QtObject{
             "image": imagesPrefix + "others/color2.png",
             "content": [
                 {
-                    "tags": ["green"],
                     "instructions": "Place the objects matching GREEN color to right and others to the left",
                     "image": imagesPrefix + "words/green.png",
                     "maxNumberOfGood": 5,
                     "maxNumberOfBad": 4,
                     "prefix": "qrc:/gcompris/data/words/",
-                    "levelImages": [
-                        {
-                            "words/artichoke.png":["green"],
-                            "words/cabbage.png":["green"],
-                            "words/cucumber.png":["green"],
-                            "words/cactus.png":["green"],
-                            "words/clover.png":["green"],
-                            "words/left.png":["blue"],
-                            "words/lobster.png":["red"],
-                            "words/mail.png":["white"],
-                            "words/post.png":["red"]
-                        }
-                    ]
+                    "good": ["words/artichoke.png","words/cabbage.png","words/cucumber.png","words/cactus.png","words/clover.png"],
+                    "bad": ["words/left.png","words/lobster.png","words/mail.png","words/post.png"]
                 },
                 {
-                    "tags": ["white"],
                     "instructions": "Place the objects matching WHITE color to right and others to the left",
                     "image": imagesPrefix + "words/white.png",
                     "maxNumberOfGood": 6,
                     "maxNumberOfBad": 6,
                     "prefix": "qrc:/gcompris/data/words/",
-                    "levelImages": [
-                        {
-                            "words/milk.png":["white"],
-                            "words/paper.svg": ["rectangle", "white"],
-                            "words/dove.png":["white"],
-                            "words/mail.png":["white"],
-                            "words/egg.png":["white"],
-                            "words/bead.png" : ["white"],
-                            "words/feather.png":["white"],
-                            "words/flash.png":["pink"],
-                            "words/plum.png":["purple"],
-                            "words/potato.png":["brown"],
-                            "words/pumpkin.png":["orange"],
-                            "words/rabbit.png":["gray"],
-                            "words/kiwi.png":["brown"]
-			}
-                    ]
+                    "good": ["words/milk.png","words/paper.png","words/dove.png","words/mail.png","words/egg.png", "words/bead.png"],
+                    "bad": ["words/flash.png","words/plum.png","words/potato.png","words/pumpkin.png","words/rabbit.png","words/kiwi.png"]
                 },
                 {
-                    "tags": ["pink"],
                     "instructions": "Place the objects matching PINK color to right and others to the left",
                     "image": imagesPrefix + "words/pink.png",
                     "maxNumberOfGood": 5,
                     "maxNumberOfBad": 4,
                     "prefix": "qrc:/gcompris/data/words/",
-                    "levelImages": [
-                        {
-                            "words/hair_dryer.png":["pink"],
-                            "words/flamingo.png":["pink"],
-                            "words/raspberry.png":["pink"],
-                            "words/pencil.png":["pink"],
-                            "words/flash.png":["pink"],
-                            "words/ink.png":["purple"],
-                            "words/kiwi.png":["brown"],
-                            "words/ladybug.png":["red"],
-                            "words/phone.png":["purple"]
-                        }
-                    ]
+                    "good": ["words/hair_dryer.png","words/flamingo.png","words/raspberry.png","words/pencil.png","words/flash.png"],
+                    "bad": ["words/ink.png","words/kiwi.png","words/ladybug.png","words/phone.png"]
                 },
                 {
                     "tags": ["red"],
@@ -102,135 +62,55 @@ QtObject{
                     "maxNumberOfGood": 5,
                     "maxNumberOfBad": 4,
                     "prefix": "qrc:/gcompris/data/words/",
-                    "levelImages": [
-                        {
-                            "shapes/dice.svg": ["cube", "red"],
-                            "words/lobster.png":["red"],
-                            "words/pair.png":["red"],
-                            "words/ladybug.png":["red"],
-                            "words/post.png":["red"],
-                            "shapes/halforange.svg": ["hemisphere", "orange"],
-                            "words/radio.png":["cuboid","blue"],
-                            "words/ramp.png":["gray"],
-                            "words/wheat.png":["yellow"]
-                        }
-                    ]
+                    "good": ["shapes/dice.svg","words/lobster.png","words/pair.png","words/ladybug.png","words/post.png"],
+                    "bad": ["shapes/halforange.svg","words/radio.png","words/ramp.png","words/wheat.png"]
                 },
                 {
-                    "tags": ["brown"],
                     "instructions": "Place the objects matching BROWN color to right and others to the left",
                     "image": imagesPrefix + "words/brown.png",
                     "maxNumberOfGood": 6,
                     "maxNumberOfBad": 6,
                     "prefix": "qrc:/gcompris/data/words/",
-                    "levelImages": [
-                        {
-                            "shapes/cookie.svg": ["circle", "brown"],
-                            "words/date_fruit.png":["brown"],
-                            "words/chocolate.png":["brown"],
-                            "words/board.png":["brown"],
-                            "words/potato.png":["brown"],
-                            "words/kiwi.png":["brown"],
-                            "words/cheese.png":["yellow"],
-                            "words/bright.png":["yellow"],
-                            "shapes/conehat.svg": ["cone", "purple"],
-                            "words/dolphin.png":["gray"],
-                            "shapes/cd.svg": ["circle", "blue"],
-                            "words/drip.png":["blue"]
-                        }
-                    ]
+                    "good": ["shapes/cookie.svg","words/date_fruit.png","words/chocolate.png","words/board.png","words/potato.png","words/kiwi.png"],
+                    "bad": ["words/cheese.png","words/bright.png","shapes/conehat.svg","words/dolphin.png","shapes/cd.svg","words/drip.png"]
                 },
                 {
-                    "tags": ["purple"],
                     "instructions": "Place the objects matching PURPLE color to right and others to the left",
                     "categorise": "PURPLE",
                     "image": imagesPrefix + "others/purple.png",
                     "maxNumberOfGood": 6,
                     "maxNumberOfBad": 6,
                     "prefix": "qrc:/gcompris/data/words/",
-                    "levelImages": [
-                        {
-                            "words/grape.png":["purple"],
-                            "words/eggplant.png":["purple"],
-                            "shapes/conehat.svg": ["cone", "purple"],
-                            "words/phone.png":["purple"],
-                            "words/plum.png":["purple"],
-                            "words/ink.png":["purple"],
-                            "words/bulb.png":["yellow"],
-                            "words/bell.png":["yellow"],
-                            "words/blackbird.png":["black"],
-                            "words/umbrella.png":["yellow"],
-                            "words/pumpkin.png": ["orange"],
-                            "shapes/halfmoon.svg": ["semicircle", "grey"]
-                        }
-                    ]
+                    "good": ["words/grape.png","words/eggplant.png","shapes/conehat.svg","words/phone.png","words/plum.png","words/ink.png"],
+                    "bad": ["words/bulb.png","words/bell.png","words/blackbird.png","words/umbrella.png","words/pumpkin.png","shapes/halfmoon.svg"]
                 },
                 {
-                    "tags": ["gray"],
                     "instructions": "Place the objects matching GREY color to right and others to the left",
                     "image": imagesPrefix + "words/gray.png",
                     "maxNumberOfGood": 6,
                     "maxNumberOfBad": 6,
                     "prefix": "qrc:/gcompris/data/words/",
-                    "levelImages": [
-                        {
-                            "words/chain.png": ["semicircle", "gray"],
-                            "words/rabbit.png":["gray"],
-                            "words/ramp.png":["gray"],
-                            "words/dolphin.png":["gray"],
-                            "words/faucet.png":["gray"],
-                            "shapes/halfmoon.svg": ["semicircle", "gray"],
-                            "shapes/backcard.svg": ["rectangle", "blue"],
-                            "words/radio.png":["cuboid","blue"],
-                            "words/clover.png":["green"],
-                            "words/left.png":["blue"],
-                            "words/flash.png":["pink"],
-                            "words/ink.png":["purple"]
-                        }
-                    ]
+                    "good": ["words/chain.png","words/rabbit.png","words/ramp.png","words/dolphin.png","words/faucet.png","shapes/halfmoon.svg"],
+                    "bad": ["shapes/backcard.svg","words/radio.png","words/clover.png","words/left.png","words/flash.png","words/ink.png"]
                 },
                 {
-                    "tags": ["orange"],
                     "instructions": "Place the objects matching ORANGE color to right and others to the left",
                     "image": imagesPrefix + "words/orange-color.png",
                     "maxNumberOfGood": 3,
                     "maxNumberOfBad": 3,
                     "prefix": "qrc:/gcompris/data/words/",
-                    "levelImages": [
-                        {
-                            "words/pumpkin.png":["orange"],
-                            "shapes/halforange.svg": ["hemisphere", "orange"],
-                            "words/orange.png":["orange"],
-                            "words/plum.png":["purple"],
-                            "words/potato.png":["brown"],
-                            "words/post.png":["red"]
-                        }
-                    ]
+                    "good": ["words/pumpkin.png","shapes/halforange.svg","words/orange.png"],
+                    "bad": ["words/plum.png","words/potato.png","words/post.png"]
                 },
                 {
-                    "tags": ["yellow"],
                     "instructions": "Place the objects matching YELLOW color to right and others to the left",
                     "categorise":"YELLOW",
                     "image": imagesPrefix + "words/yellow.png",
                     "maxNumberOfGood": 6,
                     "maxNumberOfBad": 6,
                     "prefix": "qrc:/gcompris/data/words/",
-                    "levelImages":[
-                        {
-                            "words/anchor.png":["yellow"],
-                            "words/cheese.png":["yellow"],
-                            "words/bright.png":["yellow"],
-                            "shapes/rectangle_led.svg": ["rectangle", "yellow"],
-                            "words/bulb.png":["yellow"],
-                            "words/bell.png":["yellow"],
-                            "words/blackbird.png":["black"],
-                            "words/pair.png":["red"],
-                            "words/plum.png":["purple"],
-                            "words/potato.png":["brown"],
-                            "words/drip.png":["blue"],
-                            "words/ladybug.png":["red"]
-                        }
-                    ]
+                    "good": ["words/anchor.png","words/cheese.png","words/bright.png","shapes/rectangle_led.svg","words/bulb.png","words/bell.png"],
+                    "bad": ["words/blackbird.png","words/pair.png","words/plum.png","words/potato.png","words/drip.png","words/ladybug.png"]
                 }
             ]
         }

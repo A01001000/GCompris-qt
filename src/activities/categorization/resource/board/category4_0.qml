@@ -29,172 +29,78 @@ QtObject{
             "image": imagesPrefix + "windmill12.jpg",
             "content": [
                 {
-                    "tags": ["renewable"],
                     "instructions": qsTr("Place the RENEWABLE energy sources to the right and other objects to the left"),
                     "image": imagesPrefix + "windmill12.jpg",
                     "maxNumberOfGood": 6,
-		            "maxNumberOfBad": 6,
+                    "maxNumberOfBad": 6,
                     "prefix": "qrc:/gcompris/src/activities/categorization/resource/images/",
-                    "levelImages": [
-                        { 
-                            "renewable/windmill.jpg":["renewable"],
-                            "renewable/windmill1.jpg":["renewable"],
-                            "renewable/windmill2.jpg":["renewable"],
-                            "renewable/windmill3.jpg":["renewable"],
-                            "renewable/windmill4.jpg":["renewable"],
-                            "renewable/windmill5.jpg":["renewable"],
-                            "fishes/fish20.jpg":["nature"],
-                            "others/volleyball.jpg":["others"],
-                            "monuments/burj.jpg":["nature"],
-                            "tools/nosePlier.jpg":["birds"],
-                            "others/pillow.jpg":["nature"],
-                            "fishes/fish10.jpg":["fishes"]
-                        }
-                    ]
+                    "good": ["renewable/windmill.jpg","renewable/windmill1.jpg","renewable/windmill2.jpg","renewable/windmill3.jpg","renewable/windmill4.jpg","renewable/windmill5.jpg"],
+                    "bad": ["fishes/fish20.jpg","others/volleyball.jpg","monuments/burj.jpg","tools/nosePlier.jpg","others/pillow.jpg","fishes/fish10.jpg"]
                 },
                 {
-                    "tags": ["renewable"],
                     "instructions": qsTr("Place the RENEWABLE energy sources to the right and other objects to the left"),
                     "image": imagesPrefix + "solar8.jpg",
                     "maxNumberOfGood": 6,
                     "maxNumberOfBad": 6,
                     "prefix": "qrc:/gcompris/src/activities/categorization/resource/images/",
-                    "levelImages": [
-                        {
-                            "renewable/solar1.jpg":["renewable"],
-                            "renewable/solar2.jpg":["renewable"],
-                            "renewable/solar3.jpg":["renewable"],
-                            "renewable/solar4.jpg":["renewable"],
-                            "renewable/solar5.jpg":["renewable"],
-                            "renewable/solar6.jpg":["renewable"],
-                            "others/plate.jpg":["nature"],
-                            "fishes/fish25.jpg":["birds"],
-                            "tools/scissor1.jpg":["cycle"],
-                            "monuments/christTheRedeemer.jpg":["insect"],
-                            "others/bucket.png":["nature"],
-                            "monuments/jucheTower.jpg":["others"]
-                        }
-                    ]
+                    "good": ["renewable/solar1.jpg","renewable/solar2.jpg","renewable/solar3.jpg","renewable/solar4.jpg","renewable/solar5.jpg","renewable/solar6.jpg"],
+                    "bad": ["others/plate.jpg","fishes/fish25.jpg","tools/scissor1.jpg","monuments/christTheRedeemer.jpg","others/bucket.png","monuments/jucheTower.jpg"]
                 },
                 {
-                    "tags": ["renewable"],
                     "instructions": qsTr("Place the RENEWABLE energy sources to the right and other objects to the left"),
                     "image": imagesPrefix + "dam2.jpg",
                     "maxNumberOfGood": 4,
                     "maxNumberOfBad": 5,
                     "prefix": "qrc:/gcompris/src/activities/categorization/resource/images/",
-                    "levelImages": [
-                        {
-                            "renewable/dam1.jpg":["renewable"],
-                            "renewable/dam2.jpg":["renewable"],
-                            "renewable/dam3.jpg":["renewable"],
-                            "renewable/dam4.jpg":["renewable"],
-                            "fishes/fish14.jpg":["animals"],
-                            "tools/wrench.jpg":["animals"],
-                            "tools/plier2.jpg":["insects"],
-                            "others/baseball.jpg":["insects"],
-                            "monuments/arcDeTriomphe.jpg":["monuments"]
-                        }
-                    ]
+                    "good": ["renewable/dam1.jpg","renewable/dam2.jpg","renewable/dam3.jpg","renewable/dam4.jpg"],
+                    "bad": ["fishes/fish14.jpg","tools/wrench.jpg","tools/plier2.jpg","others/baseball.jpg","monuments/arcDeTriomphe.jpg"]
                 },
                 {
-                    "tags": ["renewable"],
                     "instructions": qsTr("Place the RENEWABLE energy sources to the right and other objects to the left"),
                     "image": imagesPrefix + "dam5.jpg",
                     "maxNumberOfGood": 4,
                     "maxNumberOfBad": 5,
                     "prefix": "qrc:/gcompris/src/activities/categorization/resource/images/",
-                    "levelImages": [
-                        {
-                            "renewable/windmill2.jpg":["renewable"],
-                            "renewable/windmill13.jpg":["renewable"],
-                            "renewable/solar7.jpg":["renewable"],
-                            "renewable/solar3.jpg":["renewable"],
-                            "monuments/greatPyramid.jpg":["animals"],
-                            "others/buffetset.jpg":["animals"],
-                            "others/weighingMachine.jpg":["insects"],
-                            "tools/sprinkler.jpg":["insects"],
-                            "monuments/arcDeTriomphe.jpg":["monuments"]
-                        }
-                    ]
+                    "good": ["renewable/windmill2.jpg","renewable/windmill13.jpg","renewable/solar7.jpg","renewable/solar3.jpg"],
+                    "bad": ["monuments/greatPyramid.jpg","others/buffetset.jpg","others/weighingMachine.jpg","tools/sprinkler.jpg","monuments/arcDeTriomphe.jpg"]
                 },
                 {
-                    "tags": ["renewable"],
                     "instructions": qsTr("Place the RENEWABLE energy sources to the right and other objects to the left"),
                     "image": imagesPrefix + "geothermal.jpg",
                     "maxNumberOfGood": 5,
                     "maxNumberOfBad": 4,
                     "prefix": "qrc:/gcompris/src/activities/categorization/resource/images/",
-                    "levelImages": [
-                        {
-                            "renewable/dam5.jpg":["renewable"],
-                            "renewable/geothermal.jpg":["renewable"],
-                            "renewable/windmill6.jpg":["renewable"],
-                            "renewable/windmill7.jpg":["renewable"],
-                            "renewable/windmill8.jpg":["renewable"],
-                            "fishes/fish6.jpg":["fish"],
-                            "fishes/fish3.jpg":["others"],
-                            "others/pan.jpg":["others"],
-                            "others/spoons.jpg":["insects"]
-                        }
-                    ]
+                    "good": ["renewable/dam5.jpg","renewable/geothermal.jpg","renewable/windmill6.jpg","renewable/windmill7.jpg","renewable/windmill8.jpg"],
+                    "bad": ["fishes/fish6.jpg","fishes/fish3.jpg","others/pan.jpg","others/spoons.jpg"]
                 },               
-		{
-                    "tags": ["renewable"],
+                {
                     "instructions": qsTr("Place the RENEWABLE energy sources to the right and other objects to the left"),
                     "image": imagesPrefix + "dam3.jpg",
                     "maxNumberOfGood": 3,
                     "maxNumberOfBad": 3,
                     "prefix": "qrc:/gcompris/src/activities/categorization/resource/images/",
-                    "levelImages": [
-                        {
-                            "renewable/windmill9.jpg":["renewable"],
-                            "renewable/windmill12.jpg":["renewable"],
-                            "renewable/solar7.jpg":["renewable"],
-                            "others/blackslate.jpg":["nature"],
-                            "monuments/IndiaGate.jpg":["monuments"],
-                            "tools/multimeter.jpg":["others"]
-                        }
-                    ]
+                    "good": ["renewable/windmill9.jpg","renewable/windmill12.jpg","renewable/solar7.jpg"],
+                    "bad": ["others/blackslate.jpg","monuments/IndiaGate.jpg","tools/multimeter.jpg"]
                 },
-		{
-                    "tags": ["renewable"],
+                {
                     "instructions": qsTr("Place the RENEWABLE energy sources to the right and other objects to the left"),
                     "image": imagesPrefix + "solar2.jpg",
                     "maxNumberOfGood": 3,
                     "maxNumberOfBad": 3,
                     "prefix": "qrc:/gcompris/src/activities/categorization/resource/images/",
-                    "levelImages": [ 
-                        {  
-                            "renewable/solar8.jpg":["renewable"],
-                            "renewable/dam5.jpg":["renewable"],
-                            "renewable/windmill11.jpg":["renewable"],
-                            "others/plate.jpg":["others"],
-                            "others/chair.jpg":["animals"],
-                            "monuments/eiffelTower.jpg":["monuments"]
-                        }
-                    ]
+                    "good": ["renewable/solar8.jpg","renewable/dam5.jpg","renewable/windmill11.jpg"],
+                    "bad": ["others/plate.jpg","others/chair.jpg","monuments/eiffelTower.jpg"]
                 },
-		{
-                    "tags": ["renewable"],
+                {
                     "instructions": qsTr("Place the RENEWABLE energy sources to the right and other objects to the left"),
                     "image": imagesPrefix + "solar4.jpg",
                     "maxNumberOfGood": 3,
                     "maxNumberOfBad": 3,
                     "prefix": "qrc:/gcompris/src/activities/categorization/resource/images/",
-                    "levelImages": [ 
-                        {  
-                            "renewable/windmill14.jpg":["renewable"],
-                            "renewable/windmill15.jpg":["renewable"],
-                            "renewable/dam5.jpg":["renewable"],
-                            "others/plate.jpg":["others"],
-                            "fishes/fish18.jpg":["animals"],
-                            "monuments/leMusee.jpg":["monuments"]
-                        }
-                    ]
+                    "good": ["renewable/windmill14.jpg","renewable/windmill15.jpg","renewable/dam5.jpg"],
+                    "bad": ["others/plate.jpg","fishes/fish18.jpg","monuments/leMusee.jpg"]
                 }
             ]
-            
         }
     ]
 }

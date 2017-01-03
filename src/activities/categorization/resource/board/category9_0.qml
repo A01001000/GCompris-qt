@@ -29,301 +29,131 @@ QtObject{
             "image": imagesPrefix + "utensils.jpg",
             "content": [
                 {
-                    "tags": ["householdGoods"],
                     "instructions": qsTr("Place the HOUSEHOLD GOODS to the right and other objects to the left"),
                     "image":imagesPrefix + "oven.jpg",
                     "maxNumberOfGood": 6,
                     "maxNumberOfBad": 6,
                     "prefix": "qrc:/gcompris/data/words/",
-                    "levelImages": [
-                        {
-                            "householdGoods/bedsheet.jpg":["householdGoods"],
-                            "householdGoods/blender.png":["householdGoods"],
-                            "householdGoods/breadtoaster.jpg":["householdGoods"],
-                            "householdGoods/canOpener.jpg":["householdGoods"],
-                            "householdGoods/bathtub.jpg":["householdGoods"],
-                            "householdGoods/bed.jpg":["householdGoods"],
-                            "food/eggs.jpg":["food"],
-                            "food/milk.jpg":["food"],
-                            "food/riceBeans.jpg": ["food"],
-                            "transport/metro.jpg":["transport"],
-                            "transport/plane.jpg":["transport"],
-                            "fruits/apple.jpg":["fruits"]
-                        }
-                    ]
+                    "good": ["householdGoods/bedsheet.jpg","householdGoods/blender.png","householdGoods/breadtoaster.jpg", "householdGoods/canOpener.jpg","householdGoods/bathtub.jpg","householdGoods/bed.jpg"],
+                    "bad": ["food/eggs.jpg","food/milk.jpg","food/riceBeans.jpg","transport/metro.jpg","transport/plane.jpg","fruits/apple.jpg"]
                 },
                 {
-                    "tags": ["householdGoods"],
                     "instructions": qsTr("Place the HOUSEHOLD GOODS to the right and other objects to the left"),
                      "image": imagesPrefix + "dressingtable.jpg",
                     "maxNumberOfGood": 6,
                     "maxNumberOfBad": 6,
                     "prefix": "qrc:/gcompris/data/words/",
-                    "levelImages": [
-                        {
-                            "householdGoods/almirah.jpg":["householdGoods"],
-                            "householdGoods/coffeeMaker.jpg":["householdGoods"],
-                            "householdGoods/laptop.jpg":["householdGoods"],
-                            "householdGoods/bookshelf.jpg":["householdGoods"],
-                            "householdGoods/chair.jpg":["householdGoods"],
-                            "householdGoods/chest.jpg":["householdGoods"],
-                            "transport/ship1.jpg":["transport"],
-                            "nature/nature5.jpg":["nature"],
-                            "fruits/papaya.jpg":["fruits"],
-                            "food/hamburger.jpg":["food"],
-                            "transport/ship.jpg":["transport"],
-                            "others/street.jpg": ["others"]
-                        }
-                    ]
+                    "good": [ "householdGoods/almirah.jpg","householdGoods/coffeeMaker.jpg","householdGoods/laptop.jpg","householdGoods/bookshelf.jpg","householdGoods/chair.jpg","householdGoods/chest.jpg"],
+                    "bad": ["transport/ship1.jpg","nature/nature5.jpg","fruits/papaya.jpg","food/hamburger.jpg","transport/ship.jpg","others/street.jpg"]
                 },
                 {
-                    "tags": ["householdGoods"],
                     "instructions": qsTr("Place the HOUSEHOLD GOODS to the right and other objects to the left"),
                     "image":imagesPrefix + "radio.jpg",
                     "maxNumberOfGood": 7,
                     "maxNumberOfBad": 5,
                     "prefix": "qrc:/gcompris/data/words/",
-                    "levelImages": [
-                        {
-                            "householdGoods/curtains.jpg":["householdGoods"],
-                            "householdGoods/heater.jpg":["householdGoods"],
-                            "householdGoods/stool.jpg":["householdGoods"],
-                            "householdGoods/couch.jpg":["householdGoods"],
-                            "householdGoods/crib.jpg":["householdGoods"],
-                            "householdGoods/oven.jpg":["householdGoods"],
-                            "householdGoods/almirah.jpg":["householdGoods"],
-                            "others/house.jpg":["others"],
-                            "transport/rocket1.jpg":["transport"],
-                            "transport/train4.jpg":["transport"],
-                            "insects/insect16.jpg":["insects"],
-                            "birds/bird14.jpg": ["birds"]
-                        }
-                    ]
+                    "good": ["householdGoods/curtains.jpg","householdGoods/heater.jpg","householdGoods/stool.jpg","householdGoods/couch.jpg","householdGoods/crib.jpg","householdGoods/oven.jpg","householdGoods/almirah.jpg"],
+                    "bad": ["others/house.jpg","transport/rocket1.jpg","transport/train4.jpg","insects/insect16.jpg","birds/bird14.jpg"]
                 },
                 {
-                    "tags": ["householdGoods"],
                     "instructions": qsTr("Place the HOUSEHOLD GOODS to the right and other objects to the left"),
                     "image":imagesPrefix + "sewingMachine.jpg",
                     "maxNumberOfGood": 6,
                     "maxNumberOfBad": 6,
                     "prefix": "qrc:/gcompris/data/words/",
-                    "levelImages": [
-                        {
-                            "householdGoods/quilt.jpg":["householdGoods"],
-                            "householdGoods/iron.jpg":["householdGoods"],
-                            "householdGoods/bed2.jpg":["householdGoods"],
-                            "householdGoods/couch2.jpg":["householdGoods"],
-                            "householdGoods/diningtable.jpg":["householdGoods"],
-                            "householdGoods/coffeeMaker1.jpg":["householdGoods"],
-                            "transport/ferry1.jpg":["transport"],
-                            "vegetables/mushroom.jpg":["vegetables"],
-                            "insects/insect22.jpg":["insects"],
-                            "birds/bird5.jpg":["birds"],
-                            "food/friedEggs.jpg":["food"],
-                            "food/MaozVegetariano.jpg": ["food"]
-                        }
-                    ]
+                    "good": ["householdGoods/quilt.jpg","householdGoods/iron.jpg","householdGoods/bed2.jpg","householdGoods/couch2.jpg","householdGoods/diningtable.jpg","householdGoods/coffeeMaker1.jpg"],
+                    "bad": ["transport/ferry1.jpg","vegetables/mushroom.jpg","insects/insect22.jpg","birds/bird5.jpg","food/friedEggs.jpg","food/MaozVegetariano.jpg"]
                 },
                 {
-                    "tags": ["householdGoods"],
                     "instructions": qsTr("Place the HOUSEHOLD GOODS to the right and other objects to the left"),
                      "image": imagesPrefix + "bed.jpg",
                     "maxNumberOfGood": 6,
                     "maxNumberOfBad": 6,
                     "prefix": "qrc:/gcompris/data/words/",
-                    "levelImages": [
-                        {
-                            "householdGoods/almirah1.jpg":["householdGoods"],
-                            "householdGoods/radio.jpg":["householdGoods"],
-                            "householdGoods/chair2.jpg":["householdGoods"],
-                            "householdGoods/stool2.jpg":["householdGoods"],
-                            "householdGoods/electricBlanket.jpg":["householdGoods"],
-                            "householdGoods/refrigerator1.jpg":["householdGoods"],
-                            "birds/bird2.jpg":["others"],
-                            "birds/bird5.jpg":["birds"],
-                            "food/macroni.jpg":["food"],
-                            "transport/exchanger.jpg":["transport"],
-                            "vegetables/potato.jpg":["vegetables"],
-                            "others/pepsi.jpg": ["others"]
-                        }
-                    ]
+                    "good": ["householdGoods/almirah1.jpg","householdGoods/radio.jpg","householdGoods/chair2.jpg","householdGoods/stool2.jpg","householdGoods/electricBlanket.jpg","householdGoods/refrigerator1.jpg"],
+                    "bad": ["birds/bird2.jpg","birds/bird5.jpg","food/macroni.jpg","transport/exchanger.jpg","vegetables/potato.jpg","others/pepsi.jpg"]
                 },
                 {
-                    "tags": ["householdGoods"],
                     "instructions": qsTr("Place the HOUSEHOLD GOODS to the right and other objects to the left"),
                     "image":imagesPrefix + "heater.jpg",
                     "maxNumberOfGood": 5,
                     "maxNumberOfBad": 4,
                     "prefix": "qrc:/gcompris/data/words/",
-                    "levelImages": [
-                        {
-                            "householdGoods/television.jpg":["householdGoods"],
-                            "householdGoods/toaster.jpg":["householdGoods"],
-                            "householdGoods/curtains1.jpg":["householdGoods"],
-                            "householdGoods/coffeeMaker2.jpg":["householdGoods"],
-                            "householdGoods/iron1.jpg":["householdGoods"],
-                            "nature/nature14.jpg":["nature"],
-                            "food/pizza1.jpg":["food"],
-                            "fruits/mango.jpg":["fruits"],
-                            "vegetables/spinach.jpg": ["vegetables"]
-                        }
-                    ]
+                    "good": ["householdGoods/television.jpg","householdGoods/toaster.jpg","householdGoods/curtains1.jpg","householdGoods/coffeeMaker2.jpg","householdGoods/iron1.jpg"],
+                    "bad": ["nature/nature14.jpg","food/pizza1.jpg","fruits/mango.jpg","vegetables/spinach.jpg"]
                 },
                 {
-                    "tags": ["householdGoods"],
                     "instructions": qsTr("Place the HOUSEHOLD GOODS to the right and other objects to the left"),
                     "image":imagesPrefix + "ac.jpg",
                     "maxNumberOfGood": 5,
                     "maxNumberOfBad": 4,
                     "prefix": "qrc:/gcompris/data/words/",
-                    "levelImages": [
-                        {
-                            "householdGoods/heater1.jpg":["householdGoods"],
-                            "householdGoods/oven1.jpg":["householdGoods"],
-                            "householdGoods/radio1.jpg":["householdGoods"],
-                            "householdGoods/electricBlanket.jpg":["householdGoods"],
-                            "householdGoods/bathtub.jpg":["householdGoods"],
-                            "vegetables/zucchini.jpg": ["vegetables"],
-                            "others/street.jpg":["others"],
-                            "transport/helicopter.jpg":["transport"],
-                            "plants/tree2.jpg":["plants"]
-                        }
-                    ]
+                    "good": ["householdGoods/heater1.jpg","householdGoods/oven1.jpg","householdGoods/radio1.jpg","householdGoods/electricBlanket.jpg","householdGoods/bathtub.jpg"],
+                    "bad": ["vegetables/zucchini.jpg","others/street.jpg","transport/helicopter.jpg","plants/tree2.jpg"]
                 },
                 {
-                    "tags": ["householdGoods"],
                     "instructions": qsTr("Place the HOUSEHOLD GOODS to the right and other objects to the left"),
                     "image":imagesPrefix + "breadtoaster.jpg",
                     "maxNumberOfGood": 5,
                     "maxNumberOfBad": 4,
                     "prefix": "qrc:/gcompris/data/words/",
-                    "levelImages": [
-                        {
-                            "householdGoods/ac.jpg":["householdGoods"],
-                            "householdGoods/iron2.jpg":["householdGoods"],
-                            "householdGoods/toaster.jpg":["householdGoods"],
-                            "householdGoods/sewingMachine1.jpg":["householdGoods"],
-                            "householdGoods/vacuumCleaner.jpg":["householdGoods"],
-                            "food/hotdog.jpg":["food"],
-                            "animals/cow.jpg":["animals"],
-                            "birds/bird25.jpg": ["birds"],
-                            "insects/insect14.jpg": ["insects"]
-                        }
-                    ]
+                    "good": ["householdGoods/ac.jpg","householdGoods/iron2.jpg","householdGoods/toaster.jpg", "householdGoods/sewingMachine1.jpg", "householdGoods/vacuumCleaner.jpg"],
+                    "bad": ["food/hotdog.jpg","animals/cow.jpg","birds/bird25.jpg","insects/insect14.jpg"]
                 },
                 {
-                    "tags": ["householdGoods"],
                     "instructions": qsTr("Place the HOUSEHOLD GOODS to the right and other objects to the left"),
                      "image": imagesPrefix + "bathtub.jpg",
                     "maxNumberOfGood": 5,
                     "maxNumberOfBad": 4,
                     "prefix": "qrc:/gcompris/data/words/",
-                    "levelImages": [
-                        {
-                            "householdGoods/bed1.jpg":["householdGoods"],
-                            "householdGoods/lamp.jpg":["householdGoods"],
-                            "householdGoods/chair3.jpg":["householdGoods"],
-                            "householdGoods/refrigerator2.jpg":["householdGoods"],
-                            "householdGoods/towels.jpg":["householdGoods"],
-                            "transport/bus.jpg":["transport"],
-                            "others/fork.jpg":["others"],
-                            "insects/insect5.jpg":["insects"],
-                            "others/street.jpg": ["others"]
-                        }
-                    ]
+                    "good": ["householdGoods/bed1.jpg","householdGoods/lamp.jpg","householdGoods/chair3.jpg",
+                            "householdGoods/refrigerator2.jpg","householdGoods/towels.jpg"],
+                    "bad": ["transport/bus.jpg","animals/elephant.jpg","insects/insect5.jpg","others/street.jpg"]
                 },
                 {
-                    "tags": ["householdGoods"],
                     "instructions": qsTr("Place the HOUSEHOLD GOODS to the right and other objects to the left"),
                      "image": imagesPrefix + "stool.jpg",
                     "maxNumberOfGood": 4,
                     "maxNumberOfBad": 5,
                     "prefix": "qrc:/gcompris/data/words/",
-                    "levelImages": [
-                        {
-                            "householdGoods/chest1.jpg":["householdGoods"],
-                            "householdGoods/diningtable1.jpg":["householdGoods"],
-                            "householdGoods/laptop.jpg":["householdGoods"],
-                            "householdGoods/sewingMachine.jpg":["householdGoods"],
-                            "others/weighingmachine.jpg":["others"],
-                            "others/pencil.jpg":["others"],
-                            "transport/plane.jpg":["transport"],
-                            "food/frenchFries.jpg": ["food"],
-                            "others/house.jpg": ["others"]
-                        }
-                    ]
+                    "good": ["householdGoods/chest1.jpg","householdGoods/diningtable1.jpg","householdGoods/laptop.jpg","householdGoods/sewingMachine.jpg"],
+                    "bad": ["animals/kodiak-bear.jpg","animals/sealion.jpg","transport/plane.jpg","food/frenchFries.jpg","others/house.jpg"]
                 },
                 {
-                    "tags": ["householdGoods"],
                     "instructions": qsTr("Place the HOUSEHOLD GOODS to the right and other objects to the left"),
                      "image": imagesPrefix + "almirah.jpg",
                     "maxNumberOfGood": 3,
                     "maxNumberOfBad": 3,
                     "prefix": "qrc:/gcompris/data/words/",
-                    "levelImages": [
-                        {
-                            "householdGoods/couch2.jpg":["householdGoods"],
-                            "householdGoods/refrigerator.jpg":["householdGoods"],
-                            "householdGoods/ac1.jpg":["householdGoods"],
-                            "insects/insect18.jpg":["insects"],
-                            "transport/car1.jpg":["transport"],
-                            "others/house.jpg": ["others"]
-                        }
-                    ]
+                    "good": ["householdGoods/couch2.jpg","householdGoods/refrigerator.jpg","householdGoods/ac1.jpg"],
+                    "bad": ["insects/insect18.jpg","transport/car1.jpg","animals/dog.jpg"]
                 },
                 {
-                    "tags": ["householdGoods"],
                     "instructions": qsTr("Place the HOUSEHOLD GOODS to the right and other objects to the left"),
                     "image":imagesPrefix + "coffeeMaker2.jpg",
                     "maxNumberOfGood": 3,
                     "maxNumberOfBad": 3,
                     "prefix": "qrc:/gcompris/data/words/",
-                    "levelImages": [
-                        {
-                            "householdGoods/heater2.jpg":["householdGoods"],
-                            "householdGoods/dressingtable.jpg":["householdGoods"],
-                            "householdGoods/stool2.jpg":["householdGoods"],
-                            "animals/lion.jpg":["animals"],
-                            "vegetables/aubergine.jpg":["vegetables"],
-                            "nature/nature12.jpg": ["nature"]
-                        }
-                    ]
+                    "good": ["householdGoods/heater2.jpg","householdGoods/dressingtable.jpg","householdGoods/stool2.jpg"],
+                    "bad": ["animals/lion.jpg","vegetables/aubergine.jpg","nature/nature12.jpg"]
                 },
                 {
-                    "tags": ["householdGoods"],
                     "instructions": qsTr("Place the HOUSEHOLD GOODS to the right and other objects to the left"),
                      "image": imagesPrefix + "chest.jpg",
                     "maxNumberOfGood": 2,
                     "maxNumberOfBad": 4,
                     "prefix": "qrc:/gcompris/data/words/",
-                    "levelImages": [
-                        {
-                            "householdGoods/chair5.jpg":["householdGoods"],
-                            "householdGoods/lamp1.JPG":["householdGoods"],
-                            "vegetables/fid.jpg":["vegetables"],
-                            "others/sharpnerandpencil.jpg":["others"],
-                            "transport/ferry.jpg":["transport"],
-                            "others/broom1.jpg": ["others"]
-                        }
-                    ]
+                    "good": ["householdGoods/chair5.jpg","householdGoods/lamp1.JPG"],
+                    "bad": ["vegetables/fid.jpg","animals/koala.jpg","transport/ferry.jpg","others/broom1.jpg"]
                 },
                 {
-                    "tags": ["householdGoods"],
                     "instructions": qsTr("Place the HOUSEHOLD GOODS to the right and other objects to the left"),
                     "image":imagesPrefix + "heater1.jpg",
                     "maxNumberOfGood": 3,
                     "maxNumberOfBad": 3,
                     "prefix": "qrc:/gcompris/data/words/",
-                    "levelImages": [
-                        {
-                            "householdGoods/ac2.JPG":["householdGoods"],
-                            "householdGoods/vacuumCleaner.jpg":["householdGoods"],
-                            "householdGoods/sewingMachine2.jpg":["householdGoods"],
-                            "insects/insect15.jpg":["insects"],
-                            "vegetables/potato.jpg":["vegetables"],
-                            "nature/nature13.jpg": ["nature"]
-                        }
-                    ]
+                    "good": ["householdGoods/ac2.JPG","householdGoods/vacuumCleaner.jpg","householdGoods/sewingMachine2.jpg"],
+                    "bad": ["insects/insect15.jpg","vegetables/potato.jpg","nature/nature13.jpg"]
                 }
             ]
         }
