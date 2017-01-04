@@ -72,7 +72,7 @@ QtObject{
                     "prefix": "qrc:/gcompris/src/activities/categorization/resource/images/",
                     "good": ["renewable/dam5.jpg","renewable/geothermal.jpg","renewable/windmill6.jpg","renewable/windmill7.jpg","renewable/windmill8.jpg"],
                     "bad": ["fishes/fish6.jpg","fishes/fish3.jpg","others/pan.jpg","others/spoons.jpg"]
-                },               
+                },
                 {
                     "instructions": qsTr("Place the RENEWABLE energy sources to the right and other objects to the left"),
                     "image": imagesPrefix + "dam3.jpg",

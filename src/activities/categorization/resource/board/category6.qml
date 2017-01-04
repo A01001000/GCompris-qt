@@ -84,7 +84,6 @@ QtObject {
                     "bad": ["renewable/windmill13.jpg","renewable/geothermal.jpg","tools/scissors.jpg"]
                 }
             ]
-            
         }
     ]
 }

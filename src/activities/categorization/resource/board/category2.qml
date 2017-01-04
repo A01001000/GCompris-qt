@@ -37,7 +37,7 @@ QtObject {
                     "prefix": "qrc:/gcompris/src/activities/categorization/resource/images/",
                     "good": ["tools/clawHammer.jpg", "tools/clawHammer1.jpg","tools/estwingHammer.jpg","tools/framingHammer.jpg","tools/hammer1.jpg","tools/hammer2.jpg"],
                     "bad": ["monuments/arcDeTriomphe.jpg","others/buffetset.jpg","monuments/cathedral.jpg","others/pillow.jpg","renewable/windmill1.jpg", "renewable/geothermal.jpg"]
-                },   
+                },
                 {
                     "instructions": qsTr("Place the TOOLS to the right and others to the left"),
                     "image": imagesPrefix + "sideCutter1.jpg",
@@ -46,7 +46,7 @@ QtObject {
                     "prefix": "qrc:/gcompris/src/activities/categorization/resource/images/",
                     "good": ["tools/measuringTape.jpeg","tools/measuringTape1.jpg","tools/nosePlier.jpg","tools/nosePlier1.jpg","tools/measuringTape3.jpg","tools/measuringTape4.jpg"],
                     "bad": ["others/pan.jpg","others/blackslate.jpg","monuments/colosseum.jpg","fishes/fish10.jpg","renewable/dam1.jpg","monuments/monument3.jpg"]
-                }, 
+                },
                 {
                     "instructions": qsTr("Place the TOOLS to the right and others to the left"),
                     "image": imagesPrefix + "scissors.jpg",
@@ -55,7 +55,7 @@ QtObject {
                     "prefix": "qrc:/gcompris/src/activities/categorization/resource/images/",
                     "good": ["tools/scissor1.jpg","tools/scissor2.jpg","tools/scissors.jpg","tools/sprinkler.jpg","tools/tweezer.jpg","tools/wrench1.jpg"],
                     "bad": ["others/buffetset.jpg","monuments/beandenburgGate.jpg","monuments/parthenon.jpg","fishes/fish12.jpg","fishes/fish16.jpg","others/plate.jpg"]
-                }, 
+                },
                 {
                     "instructions": qsTr("Place the TOOLS to the right and others to the left"),
                     "image": imagesPrefix + "sprinkler.jpg",
@@ -64,7 +64,7 @@ QtObject {
                     "prefix": "qrc:/gcompris/src/activities/categorization/resource/images/",
                     "good": ["tools/sprinkler.jpg","tools/screwDriver.jpg","tools/screwDriver1.jpg","tools/screwDriver2.jpg","tools/screwDriver3.jpg","tools/plier.jpg"],
                     "bad": ["others/baseball.jpg","others/igloo.jpg","monuments/mountRushmore.jpg","renewable/dam3.jpg","monuments/greatWall.jpg","renewable/windmill7.jpg"]
-                }, 
+                },
                 {
                     "instructions": qsTr("Place the TOOLS to the right and others to the left"),
                     "image": imagesPrefix + "plier.jpg",
@@ -73,7 +73,7 @@ QtObject {
                     "prefix": "qrc:/gcompris/src/activities/categorization/resource/images/",
                     "good": ["tools/multimeter.jpg","tools/screwDriver.jpg","tools/hammer3.jpg","tools/measuringTape.jpg","tools/nosePlier.jpg"],
                     "bad": ["fishes/fish25.jpg","fishes/fish18.jpg","monuments/monument1.jpg","monuments/monument2.jpg"]
-                }, 
+                },
                 {
                     "instructions": qsTr("Place the TOOLS to the right and others to the left"),
                     "image": imagesPrefix + "nosePlier2.jpg",

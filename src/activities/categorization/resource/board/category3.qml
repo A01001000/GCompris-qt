@@ -64,7 +64,7 @@ QtObject {
                     "prefix": "qrc:/gcompris/src/activities/categorization/resource/images/",
                     "good": ["monuments/mountRushmore.jpg","monuments/operaHouse.jpg","monuments/parthenon.jpg","monuments/statueOfLiberty.jpg","monuments/tajMahal.jpg"],
                     "bad": ["renewable/solar2.jpg","renewable/geothermal.jpg","tools/scissor.jpg","tools/stripper1.png"]
-                },               
+                },
                 {
                     "instructions": qsTr("Place the MONUMENTS to the right and other objects to the left"),
                     "image": imagesPrefix + "beandenburgGate.jpg",
@@ -84,7 +84,6 @@ QtObject {
                     "bad": ["others/volleyball.jpg","tools/sickle.jpg","others/chair.jpg","renewable/dam4.jpg"]
                 }
             ]
-            
         }
     ]
 }

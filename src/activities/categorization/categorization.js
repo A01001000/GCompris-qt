@@ -54,7 +54,7 @@ function start() {
     items.categoryReview.stop()
     var categoriesFilename;
     for(var i = 1; i <= categoriesCount; i++) {
-        categoriesFilename = boardsUrl + "board" + "/" + "category" + i + "_" + currentSubLevel + ".qml"
+        categoriesFilename = boardsUrl + "board" + "/" + "category" + i + ".qml"
         items.categoryReview.categoryDataset.source = categoriesFilename
         categoriesData.push(items.categoryReview.categoryDataset.item)
     }
@@ -216,7 +216,7 @@ function getCategoryLevels() {
                 "numberOfGood": ele.maxNumberOfGood, "numberofBad": ele.maxNumberOfBad, "categoryImages": ele.levelImages ,"good": ele.good,"bad": ele.bad, "prefix": ele.prefix }
         });
     }
-    
+
     var imagesPrefix = items.details[items.bar.level - 1].prefix
     // Good set of images
     var goodImages = items.details[items.bar.level - 1].good
@@ -226,7 +226,7 @@ function getCategoryLevels() {
         return {"name": obj, "isRight": true}
     });
     goodZoneImages = goodZoneImages.splice(0,numberOfGood);
-    
+
     // Bad set of images
     var badImages = items.details[items.bar.level - 1].bad
     var badZoneImages = badImages.map(function(obj) {
@@ -235,7 +235,7 @@ function getCategoryLevels() {
     });
     var numberofBad = Math.min(badImages.length,items.details[items.bar.level-1].numberofBad);
     badZoneImages = badZoneImages.splice(0,numberofBad);
-    
+
     // Concat both set of images(good and bad) in allImages and store in middleZone model
     var allImages = goodZoneImages.concat(badZoneImages);
     Core.shuffle(allImages);
