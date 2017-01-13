@@ -161,6 +161,7 @@ Item {
             width: horizontalLayout ? rightZone.width * 0.20 : rightZone.width * 0.35
             height: horizontalLayout ? rightZone.width * 0.20 : rightZone.width * 0.35
             y: parent.height*0.8
+            z: 2
             anchors{
                 rightMargin: 14 * ApplicationInfo.ratio
                 right: parent.right

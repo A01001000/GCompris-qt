@@ -45,6 +45,8 @@ ActivityBase {
         signal start
         signal stop
 
+        property bool categoriesFallback: true
+
         Component.onCompleted: {
             activity.start.connect(start)
             activity.stop.connect(stop)
@@ -69,6 +71,7 @@ ActivityBase {
             property bool iAmReadyChecked: (mode === "expert")
             property bool demoVersion:  (DownloadManager.haveLocalResource(ApplicationSettings.wordset)) ? false : true
             property var details
+            property alias categoriesFallbackDialog: categoriesFallbackDialog
         }
 
         onStart: {
@@ -188,6 +191,20 @@ ActivityBase {
         Bonus {
             id: bonus
             Component.onCompleted: win.connect(Activity.nextLevel)
+        }
+        Loader {
+            id: categoriesFallbackDialog
+            sourceComponent: GCDialog {
+                parent: activity.main
+                message: qsTr("We are sorry, you don't have all the images for this activity.") + " " +
+                         qsTr("Kindly update the images to get all of them.") + " " +
+                         qsTr("We switched to demo version till that time.")
+                onClose: background.categoriesFallback = false
+            }
+            anchors.fill: parent
+            focus: true
+            active: background.categoriesFallback
+            onStatusChanged: if (status == Loader.Ready) item.start()
         }
     }
 }

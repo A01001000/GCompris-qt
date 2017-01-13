@@ -112,7 +112,7 @@ Window {
         if(wordset == '')
             // Maybe the wordset has been bundled or copied manually
             // we have to register it if we find it.
-            wordset = 'data2/words/words.rcc'
+            wordset = 'data2/words_categorization/words.rcc'
 
         // check for words.rcc:
         if (DownloadManager.isDataRegistered("words")) {

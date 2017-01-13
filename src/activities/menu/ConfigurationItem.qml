@@ -252,7 +252,7 @@ Item {
             visible: ApplicationInfo.isDownloadAllowed
             enabled: !DownloadManager.isDataRegistered("words")
             onCheckedChanged: {
-                wordset = checked ? 'data2/words/words.rcc' : '';
+                wordset = checked ? 'data2/words_categorization/words.rcc' : '';
             }
         }
 
@@ -557,7 +557,7 @@ Item {
         sectionVisibleBox.checked = sectionVisible
 
         wordset = ApplicationSettings.wordset
-        wordsetBox.checked = DownloadManager.isDataRegistered("words") || ApplicationSettings.wordset == 'data2/words/words.rcc'
+        wordsetBox.checked = DownloadManager.isDataRegistered("words") || ApplicationSettings.wordset == 'data2/words_categorization/words.rcc'
         wordsetBox.enabled = !DownloadManager.isDataRegistered("words")
 
         baseFontSize = ApplicationSettings.baseFontSize;
